@@ -24,7 +24,7 @@ LED 4       P0.31
 
 */
 
-// quick test change again once again
+// i should really worry more about privacy im noticing
 
 #define LED1 28
 #define LED2 29
