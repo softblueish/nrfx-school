@@ -24,6 +24,8 @@ LED 4       P0.31
 
 */
 
+// quick test change
+
 #define LED1 28
 #define LED2 29
 #define BUTTON1 23
