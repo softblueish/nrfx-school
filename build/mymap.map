@@ -64,578 +64,607 @@ Discarded input sections
  .data          0x00000000        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
  .bss           0x00000000        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
  .ARM.extab     0x00000000        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
- .data          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
- .bss           0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .text          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .data          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .bss           0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+ .data          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+ .bss           0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .text          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .data          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .bss           0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_1
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_2
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_3
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_4
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_5
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_6
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_7
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_8
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_9
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_10
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_11
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_12
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_13
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_14
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_15
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_16
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_18
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_19
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_20
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_21
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_22
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_23
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_26
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_27
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_28
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_29
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_30
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_31
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_32
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_33
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_34
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_36
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_37
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_43
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_44
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_45
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_47
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_50
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_51
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_52
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_53
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_54
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_57
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_58
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_59
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_62
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_65
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_66
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_67
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_70
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_71
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_72
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_73
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_74
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_75
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_76
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_77
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_79
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_80
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_81
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_82
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_83
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_84
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_85
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_86
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_87
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_90
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_91
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_93
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_95
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_99
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_103
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_105
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_106
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_107
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_109
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_110
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_112
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_113
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_114
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_115
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_116
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_117
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_119
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_121
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_122
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_133
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_134
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_135
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_136
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_137
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_138
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_152
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_153
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_154
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_157
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_158
-                0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_161
-                0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .data.SystemCoreClock
+                0x00000000        0x4 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.SystemCoreClockUpdate
-                0x00000000       0x2c H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000       0x2c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.SystemLockFICRNS
-                0x00000000       0x50 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/main.c.o
- .text          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/main.c.o
- .data          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/main.c.o
- .bss           0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000      0xaf0 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x56 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x51 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000      0x103 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x6a H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000      0x1df H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x2e H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x50 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x1c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x29 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0xfb H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000     0x1685 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x5e H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000      0x7ba H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000    0x1248c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x52 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x12 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000       0x6a H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00000000      0x44e H:/Code/nrfx/src/sample/../../build/main.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .text          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .data          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .bss           0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x50 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .text          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .data          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .bss           0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000      0xaf0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x56 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x51 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000      0x103 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000      0x1df C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x2e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x50 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x29 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0xfb C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000     0x1685 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x5e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000      0x7ba C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000    0x1248c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x52 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x12 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00000000      0x44e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .text          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .data          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .bss           0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_shorts_disable
-                0x00000000       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_txrx_pins_disconnect
-                0x00000000       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_tx_pin_get
-                0x00000000       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_rx_pin_get
-                0x00000000       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_rts_pin_get
-                0x00000000       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_cts_pin_get
-                0x00000000       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_hwfc_pins_disconnect
-                0x00000000       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_tx_amount_get
-                0x00000000       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_int_uninit
-                0x00000000       0x14 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x14 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_tx_abort
-                0x00000000       0x50 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x50 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_pins_get
-                0x00000000       0x4a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x4a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_pins_disconnect
-                0x00000000       0x20 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x20 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_event_check
-                0x00000000       0x2c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x2c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_shorts_disable
-                0x00000000       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_tx_amount_get
-                0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_rx_amount_get
-                0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_gpio_cfg_default
-                0x00000000       0x24 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x24 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_gpio_cfg_default
-                0x00000000       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.pins_to_default
-                0x00000000       0xb0 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0xb0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfx_uarte_reconfigure
-                0x00000000       0x84 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x84 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfx_uarte_uninit
-                0x00000000       0x90 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x90 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfx_uarte_rx_ready
-                0x00000000       0x34 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfx_uarte_errorsrc_get
-                0x00000000       0x2a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x2a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.rx_done_event
-                0x00000000       0x30 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x30 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.tx_done_event
-                0x00000000       0x36 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x36 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfx_uarte_tx_abort
-                0x00000000       0x4c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x4c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfx_uarte_rx_abort
-                0x00000000       0x60 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000       0x60 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.irq_handler
-                0x00000000      0x164 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000000      0x164 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfx_uarte_0_irq_handler
-                0x00000000       0x18 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0xaf0 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x1c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x5f9 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x56 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x51 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x103 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x6a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x1df H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x189 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x7b H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x2a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x3c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x34 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x38c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x16 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x4a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x34 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x58 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x1de H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x3c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x7c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x17 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0xee H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x2e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x50 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x1c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x29 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0xfb H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000     0x1685 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x5e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x7ba H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000    0x1248c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x52 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x12 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x6a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0xa39 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x44e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000      0x10f H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0xf7 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x34 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x4c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x16 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x17 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00000000       0x7b H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .group         0x00000000        0xc H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .text          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .data          0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .bss           0x00000000        0x0 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x00000000       0x18 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0xaf0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x5f9 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x56 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x51 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x103 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x1df C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x189 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x7b C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x2a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x3c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x38c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x16 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x4a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x58 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x1de C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x3c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x7c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x17 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0xee C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x2e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x50 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x29 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0xfb C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000     0x1685 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x5e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x7ba C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000    0x1248c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x52 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x12 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0xa39 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x44e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000      0x10f C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0xf7 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x4c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x16 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x17 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00000000       0x7b C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .group         0x00000000        0xc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .data          0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .bss           0x00000000        0x0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text.nrf_systick_csr_set
+                0x00000000       0x20 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text.nrf_systick_load_set
+                0x00000000       0x20 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text.nrf_systick_val_get
+                0x00000000       0x18 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
  .text.nrfx_systick_us_tick
-                0x00000000       0x30 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x00000000       0x30 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text.nrfx_systick_ms_tick
+                0x00000000       0x30 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text.nrfx_systick_init
+                0x00000000       0x16 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
  .text.nrfx_systick_get
-                0x00000000       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x00000000       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
  .text.nrfx_systick_test
-                0x00000000       0x38 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x00000000       0x38 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text.nrfx_systick_delay_ticks
+                0x00000000       0x2e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
  .text.nrfx_systick_delay_us
-                0x00000000       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0xaf0 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x1c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x5f9 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x56 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x51 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x103 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x6a H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x1df H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x189 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x7b H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x2a H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x3c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x34 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x38c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x16 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x4a H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x34 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x58 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x1de H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x3c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x7c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x17 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0xee H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x2e H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x50 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x1c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x29 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0xfb H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000     0x1685 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x5e H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x7ba H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000    0x1248c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x52 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x12 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x6a H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0xa39 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x64 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x44e H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000      0x10f H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0xf7 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x34 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x4c H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x16 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_macro   0x00000000       0x10 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x00000000       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .text.nrfx_systick_delay_ms
+                0x00000000       0x90 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_info    0x00000000      0x32d C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_abbrev  0x00000000      0x1ef C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_aranges
+                0x00000000       0x70 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_rnglists
+                0x00000000       0x50 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x29f C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0xaf0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x5f9 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x56 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x51 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x103 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x1df C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x189 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x7b C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x2a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x3c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x38c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x16 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x4a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x58 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x1de C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x3c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x7c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x17 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0xee C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x2e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x50 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x29 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0xfb C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000     0x1685 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x5e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x7ba C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000    0x1248c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x52 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x12 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0xa39 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x44e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000      0x10f C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0xf7 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x4c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x16 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_macro   0x00000000       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_line    0x00000000      0x6c8 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_str     0x00000000    0x92bbd C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .comment       0x00000000       0x45 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .debug_frame   0x00000000      0x1a4 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
+ .ARM.attributes
+                0x00000000       0x3a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
  .text          0x00000000        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
  .data          0x00000000        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
  .bss           0x00000000        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
@@ -904,11 +933,11 @@ Linker script and memory map
 LOAD C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crti.o
 LOAD C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 LOAD C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
-LOAD H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
-LOAD H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
-LOAD H:/Code/nrfx/src/sample/../../build/main.c.o
-LOAD H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
-LOAD H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+LOAD C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+LOAD C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+LOAD C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+LOAD C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+LOAD C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_systick.c.o
 LOAD C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a
 LOAD C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libnosys.a
 LOAD C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libm.a
@@ -933,7 +962,7 @@ END GROUP
 .vectors        0x00000000      0x400
                 0x00000000                        __vectors_start = .
  *(.isr_vector)
- .isr_vector    0x00000000      0x400 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+ .isr_vector    0x00000000      0x400 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
                 0x00000000                __isr_vector
  *(.vectors)
                 0x00000400                        __vectors_size = SIZEOF (.vectors)
@@ -967,555 +996,518 @@ END GROUP
                 0x00000001                        ASSERT (((__dtors_start == __dtors_end) || ((__dtors_end - ORIGIN (FLASH)) <= LENGTH (FLASH))), error: .dtors is too large to fit in FLASH memory segment)
                 0x00000400                        . = ALIGN (0x4)
 
-.rodata         0x00000400        0xf
+.rodata         0x00000400       0x35
                 0x00000400                        . = ALIGN (0x4)
                 0x00000400                        __rodata_start = .
  *(.rodata*)
- .rodata        0x00000400        0xf H:/Code/nrfx/src/sample/../../build/main.c.o
+ .rodata        0x00000400       0x35 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
  *(.srodata .srodata.*)
-                0x0000000f                        __rodata_size = SIZEOF (.rodata)
-                0x0000040f                        __rodata_end = (__rodata_start + __rodata_size)
+                0x00000035                        __rodata_size = SIZEOF (.rodata)
+                0x00000435                        __rodata_end = (__rodata_start + __rodata_size)
                 0x00000001                        ASSERT (((__rodata_start == __rodata_end) || ((__rodata_end - ORIGIN (FLASH)) <= LENGTH (FLASH))), error: .rodata is too large to fit in FLASH memory segment)
 
-.ARM.exidx      0x00000410        0x8
- .ARM.exidx     0x00000410        0x8 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
+.ARM.exidx      0x00000438        0x8
+ .ARM.exidx     0x00000438        0x8 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
                                  0x10 (size before relaxing)
-                0x00000418                        . = ALIGN (0x4)
+                0x00000440                        . = ALIGN (0x4)
 
-.text           0x00000418     0x1c58
-                0x00000418                        __text_start = .
+.text           0x00000440     0x18e0
+                0x00000440                        __text_start = .
  *(.startup)
  *(.startup*)
  *(.text*)
  .text.deregister_tm_clones
-                0x00000418       0x1c C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x00000440       0x1c C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  .text.register_tm_clones
-                0x00000434       0x28 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
- .text.__do_global_dtors_aux
                 0x0000045c       0x28 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .text.__do_global_dtors_aux
+                0x00000484       0x28 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  .text.frame_dummy
-                0x00000484       0x24 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
- .text          0x000004a8       0x7c C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
-                0x000004a8                _stack_init
-                0x000004b0                _start
-                0x000004b0                _mainCRTStartup
- .text          0x00000524       0x88 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
-                0x00000524                Reset_Handler
-                0x00000594                NMI_Handler
-                0x00000596                HardFault_Handler
-                0x00000598                MemoryManagement_Handler
-                0x0000059a                BusFault_Handler
-                0x0000059c                UsageFault_Handler
-                0x0000059e                SecureFault_Handler
-                0x000005a0                SVC_Handler
-                0x000005a2                DebugMon_Handler
-                0x000005a4                PendSV_Handler
-                0x000005a6                SysTick_Handler
-                0x000005a8                WDT0_IRQHandler
-                0x000005a8                I2S0_IRQHandler
-                0x000005a8                IPC_IRQHandler
-                0x000005a8                RTC0_IRQHandler
-                0x000005a8                PWM3_IRQHandler
-                0x000005a8                SERIAL3_IRQHandler
-                0x000005a8                FPU_IRQHandler
-                0x000005a8                USBD_IRQHandler
-                0x000005a8                SERIAL2_IRQHandler
-                0x000005a8                EGU3_IRQHandler
-                0x000005a8                KMU_IRQHandler
-                0x000005a8                CRYPTOCELL_IRQHandler
-                0x000005a8                EGU2_IRQHandler
-                0x000005a8                SPIM4_IRQHandler
-                0x000005a8                QDEC1_IRQHandler
-                0x000005a8                CACHE_IRQHandler
-                0x000005a8                EGU4_IRQHandler
-                0x000005a8                SPU_IRQHandler
-                0x000005a8                EGU0_IRQHandler
-                0x000005a8                GPIOTE1_IRQHandler
-                0x000005a8                TIMER1_IRQHandler
-                0x000005a8                PWM2_IRQHandler
-                0x000005a8                PWM1_IRQHandler
-                0x000005a8                Default_Handler
-                0x000005a8                EGU1_IRQHandler
-                0x000005a8                EGU5_IRQHandler
-                0x000005a8                SAADC_IRQHandler
-                0x000005a8                GPIOTE0_IRQHandler
-                0x000005a8                SERIAL1_IRQHandler
-                0x000005a8                QDEC0_IRQHandler
-                0x000005a8                PWM0_IRQHandler
-                0x000005a8                RTC1_IRQHandler
-                0x000005a8                SERIAL0_IRQHandler
-                0x000005a8                USBREGULATOR_IRQHandler
-                0x000005a8                NFCT_IRQHandler
-                0x000005a8                WDT1_IRQHandler
-                0x000005a8                TIMER0_IRQHandler
-                0x000005a8                TIMER2_IRQHandler
-                0x000005a8                QSPI_IRQHandler
-                0x000005a8                COMP_LPCOMP_IRQHandler
-                0x000005a8                CLOCK_POWER_IRQHandler
-                0x000005a8                PDM0_IRQHandler
+                0x000004ac       0x24 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .text          0x000004d0       0x7c C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
+                0x000004d0                _stack_init
+                0x000004d8                _start
+                0x000004d8                _mainCRTStartup
+ .text          0x0000054c       0x88 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+                0x0000054c                Reset_Handler
+                0x000005bc                NMI_Handler
+                0x000005be                HardFault_Handler
+                0x000005c0                MemoryManagement_Handler
+                0x000005c2                BusFault_Handler
+                0x000005c4                UsageFault_Handler
+                0x000005c6                SecureFault_Handler
+                0x000005c8                SVC_Handler
+                0x000005ca                DebugMon_Handler
+                0x000005cc                PendSV_Handler
+                0x000005ce                SysTick_Handler
+                0x000005d0                WDT0_IRQHandler
+                0x000005d0                I2S0_IRQHandler
+                0x000005d0                IPC_IRQHandler
+                0x000005d0                RTC0_IRQHandler
+                0x000005d0                PWM3_IRQHandler
+                0x000005d0                SERIAL3_IRQHandler
+                0x000005d0                FPU_IRQHandler
+                0x000005d0                USBD_IRQHandler
+                0x000005d0                SERIAL2_IRQHandler
+                0x000005d0                EGU3_IRQHandler
+                0x000005d0                KMU_IRQHandler
+                0x000005d0                CRYPTOCELL_IRQHandler
+                0x000005d0                EGU2_IRQHandler
+                0x000005d0                SPIM4_IRQHandler
+                0x000005d0                QDEC1_IRQHandler
+                0x000005d0                CACHE_IRQHandler
+                0x000005d0                EGU4_IRQHandler
+                0x000005d0                SPU_IRQHandler
+                0x000005d0                EGU0_IRQHandler
+                0x000005d0                GPIOTE1_IRQHandler
+                0x000005d0                TIMER1_IRQHandler
+                0x000005d0                PWM2_IRQHandler
+                0x000005d0                PWM1_IRQHandler
+                0x000005d0                Default_Handler
+                0x000005d0                EGU1_IRQHandler
+                0x000005d0                EGU5_IRQHandler
+                0x000005d0                SAADC_IRQHandler
+                0x000005d0                GPIOTE0_IRQHandler
+                0x000005d0                SERIAL1_IRQHandler
+                0x000005d0                QDEC0_IRQHandler
+                0x000005d0                PWM0_IRQHandler
+                0x000005d0                RTC1_IRQHandler
+                0x000005d0                SERIAL0_IRQHandler
+                0x000005d0                USBREGULATOR_IRQHandler
+                0x000005d0                NFCT_IRQHandler
+                0x000005d0                WDT1_IRQHandler
+                0x000005d0                TIMER0_IRQHandler
+                0x000005d0                TIMER2_IRQHandler
+                0x000005d0                QSPI_IRQHandler
+                0x000005d0                COMP_LPCOMP_IRQHandler
+                0x000005d0                CLOCK_POWER_IRQHandler
+                0x000005d0                PDM0_IRQHandler
  .text.nrf53_errata_42
-                0x000005ac       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x000005d4       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_46
-                0x00000610       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000638       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_49
-                0x00000674       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x0000069c       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_55
-                0x000006d8       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000700       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_64
-                0x0000073c       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000764       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_69
-                0x000007a0       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x000007c8       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_97
-                0x00000804       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x0000082c       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_140
-                0x00000868       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000890       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_errata_160
-                0x000008cc       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x000008f4       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.nrf53_handle_approtect
-                0x00000930       0x2c H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000958       0x2c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .text.SystemInit
-                0x0000095c      0x224 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
-                0x0000095c                SystemInit
+                0x00000984      0x224 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000984                SystemInit
  .text.SystemStoreFICRNS
-                0x00000b80       0x64 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
-                0x00000b80                SystemStoreFICRNS
- .text.nrf_gpio_pin_port_decode
-                0x00000be4       0x3c H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_cfg
-                0x00000c20       0x7c H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_cfg_output
-                0x00000c9c       0x24 H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_pin_set
-                0x00000cc0       0x2a H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_pin_clear
-                0x00000cea       0x2a H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_pin_write
-                0x00000d14       0x26 H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_port_out_set
-                0x00000d3a       0x1c H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_port_out_clear
-                0x00000d56       0x1c H:/Code/nrfx/src/sample/../../build/main.c.o
- .text.nrf_gpio_pin_port_number_extract
-                0x00000d72       0x28 H:/Code/nrfx/src/sample/../../build/main.c.o
- *fill*         0x00000d9a        0x2 
- .text.main     0x00000d9c      0x200 H:/Code/nrfx/src/sample/../../build/main.c.o
-                0x00000d9c                main
+                0x00000ba8       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000ba8                SystemStoreFICRNS
+ .text.read_string
+                0x00000c0c       0x54 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+                0x00000c0c                read_string
+ .text.print_string
+                0x00000c60       0x40 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+                0x00000c60                print_string
+ .text.main     0x00000ca0      0x108 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+                0x00000ca0                main
  .text.nrf_event_readback
-                0x00000f9c       0x18 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000da8       0x18 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_barrier_w
-                0x00000fb4        0xe H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000dc0        0xe C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_barrier_r
-                0x00000fc2        0xe H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000dce        0xe C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_barrier_rw
-                0x00000fd0        0xe H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000ddc        0xe C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_dma_accessible_check
-                0x00000fde       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000dea       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_event_clear
-                0x00001006       0x2a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000e12       0x2a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_event_check
-                0x00001030       0x2a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000e3c       0x2a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_shorts_enable
-                0x0000105a       0x26 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000e66       0x26 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_int_enable
-                0x00001080       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000e8c       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_int_disable
-                0x0000109e       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000eaa       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_errorsrc_get_and_clear
-                0x000010bc       0x26 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000ec8       0x26 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_enable
-                0x000010e2       0x1c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000eee       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_disable
-                0x000010fe       0x1c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000f0a       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_txrx_pins_set
-                0x0000111a       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000f26       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_hwfc_pins_set
-                0x00001142       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000f4e       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_task_trigger
-                0x0000116a       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000f76       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_configure
-                0x0000118c       0x36 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000f98       0x36 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_baudrate_set
-                0x000011c2       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000fce       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_tx_buffer_set
-                0x000011e0       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00000fec       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_rx_buffer_set
-                0x00001208       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001014       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_uarte_rx_amount_get
-                0x00001230       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x0000103c       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_periph_configure
-                0x0000124a       0x72 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001056       0x72 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_int_init
-                0x000012bc       0xb8 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000010c8       0xb8 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_events_process
-                0x00001374       0x26 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001180       0x26 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_stop
-                0x0000139a       0x60 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- *fill*         0x000013fa        0x2 
+                0x000011a6       0x60 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ *fill*         0x00001206        0x2 
  .text.nrfy_uarte_tx_start
-                0x000013fc       0x4c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001208       0x4c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_rx_start
-                0x00001448       0x48 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001254       0x48 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_event_clear
-                0x00001490       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x0000129c       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_shorts_enable
-                0x000014b2       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000012be       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_int_enable
-                0x000014d0       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000012dc       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_int_disable
-                0x000014ee       0x1e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000012fa       0x1e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_errorsrc_get_and_clear
-                0x0000150c       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001318       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_enable
-                0x0000152e       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x0000133a       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_disable
-                0x00001548       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001354       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_task_trigger
-                0x00001562       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x0000136e       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_tx_buffer_set
-                0x00001584       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001390       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_uarte_rx_buffer_set
-                0x000015ac       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000013b8       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.__nrfy_internal_uarte_event_enabled_clear
-                0x000015ce       0x38 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000013da       0x38 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.__nrfy_internal_uarte_event_handle
-                0x00001606       0x6e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001412       0x6e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.__nrfy_internal_uarte_events_process
-                0x00001674       0xf2 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- *fill*         0x00001766        0x2 
+                0x00001480       0xf2 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ *fill*         0x00001572        0x2 
  .text.nrf_gpio_pin_port_decode
-                0x00001768       0x3c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001574       0x3c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_gpio_cfg
-                0x000017a4       0x7c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000015b0       0x7c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_gpio_cfg_output
-                0x00001820       0x24 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x0000162c       0x24 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_gpio_cfg_input
-                0x00001844       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001650       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_gpio_pin_set
-                0x0000186c       0x2a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001678       0x2a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_gpio_port_out_set
-                0x00001896       0x1c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000016a2       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrf_gpio_pin_port_number_extract
-                0x000018b2       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000016be       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_gpio_cfg_output
-                0x000018da       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x000016e6       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_gpio_cfg_input
-                0x000018f4       0x22 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001700       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.nrfy_gpio_pin_set
-                0x00001916       0x1a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x00001722       0x1a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.uarte_configure
-                0x00001930      0x138 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x0000173c      0x138 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .text.apply_workaround_for_enable_anomaly
-                0x00001a68       0x8e H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- *fill*         0x00001af6        0x2 
+                0x00001874       0x8e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ *fill*         0x00001902        0x2 
  .text.nrfx_uarte_init
-                0x00001af8       0xb4 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
-                0x00001af8                nrfx_uarte_init
+                0x00001904       0xb4 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+                0x00001904                nrfx_uarte_init
  .text.nrfx_uarte_tx
-                0x00001bac       0xf8 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
-                0x00001bac                nrfx_uarte_tx
+                0x000019b8       0xf8 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+                0x000019b8                nrfx_uarte_tx
  .text.nrfx_uarte_tx_in_progress
-                0x00001ca4       0x38 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
-                0x00001ca4                nrfx_uarte_tx_in_progress
+                0x00001ab0       0x38 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+                0x00001ab0                nrfx_uarte_tx_in_progress
  .text.nrfx_uarte_rx
-                0x00001cdc      0x194 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
-                0x00001cdc                nrfx_uarte_rx
- .text.nrf_systick_csr_set
-                0x00001e70       0x20 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .text.nrf_systick_load_set
-                0x00001e90       0x20 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .text.nrf_systick_val_get
-                0x00001eb0       0x18 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .text.nrfx_systick_ms_tick
-                0x00001ec8       0x30 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .text.nrfx_systick_init
-                0x00001ef8       0x16 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
-                0x00001ef8                nrfx_systick_init
- .text.nrfx_systick_delay_ticks
-                0x00001f0e       0x2e H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
-                0x00001f0e                nrfx_systick_delay_ticks
- .text.nrfx_systick_delay_ms
-                0x00001f3c       0x90 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
-                0x00001f3c                nrfx_systick_delay_ms
- .text.exit     0x00001fcc       0x24 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
-                0x00001fcc                exit
- .text.memset   0x00001ff0       0x10 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
-                0x00001ff0                memset
+                0x00001ae8      0x194 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+                0x00001ae8                nrfx_uarte_rx
+ .text.exit     0x00001c7c       0x24 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
+                0x00001c7c                exit
+ .text.memset   0x00001ca0       0x10 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+                0x00001ca0                memset
  .text.__libc_init_array
-                0x00002000       0x48 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
-                0x00002000                __libc_init_array
- .text._exit    0x00002048        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
-                0x00002048                _exit
-                0x0000204c                        . = ALIGN (0x4)
+                0x00001cb0       0x48 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
+                0x00001cb0                __libc_init_array
+ .text._exit    0x00001cf8        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
+                0x00001cf8                _exit
+                0x00001cfc                        . = ALIGN (0x4)
  *(.init)
- .init          0x0000204c        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crti.o
-                0x0000204c                _init
- .init          0x00002050        0x8 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtn.o
-                0x00002058                        . = ALIGN (0x4)
-                0x00002058                        __preinit_array_start = .
+ .init          0x00001cfc        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crti.o
+                0x00001cfc                _init
+ .init          0x00001d00        0x8 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtn.o
+                0x00001d08                        . = ALIGN (0x4)
+                0x00001d08                        __preinit_array_start = .
  *(.preinit_array)
-                0x00002058                        __preinit_array_end = .
-                0x00002058                        . = ALIGN (0x4)
-                0x00002058                        __init_array_start = .
+                0x00001d08                        __preinit_array_end = .
+                0x00001d08                        . = ALIGN (0x4)
+                0x00001d08                        __init_array_start = .
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x00002058        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
-                0x0000205c                        __init_array_end = .
+ .init_array    0x00001d08        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x00001d0c                        __init_array_end = .
  *(.fini)
- .fini          0x0000205c        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crti.o
-                0x0000205c                _fini
- .fini          0x00002060        0x8 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtn.o
-                0x00002068                        . = ALIGN (0x4)
-                0x00002068                        __fini_array_start = .
+ .fini          0x00001d0c        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crti.o
+                0x00001d0c                _fini
+ .fini          0x00001d10        0x8 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtn.o
+                0x00001d18                        . = ALIGN (0x4)
+                0x00001d18                        __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00002068        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .fini_array    0x00001d18        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  *(SORT_BY_NAME(.fini_array.*))
-                0x0000206c                        __fini_array_end = .
-                0x0000206c                        . = ALIGN (0x4)
+                0x00001d1c                        __fini_array_end = .
+                0x00001d1c                        . = ALIGN (0x4)
  *(.eh_frame*)
- .eh_frame      0x0000206c        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
- .eh_frame      0x0000206c        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtend.o
-                0x00002070                        . = ALIGN (0x4)
+ .eh_frame      0x00001d1c        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .eh_frame      0x00001d1c        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtend.o
+                0x00001d20                        . = ALIGN (0x4)
  *(.eh_frame_hdr)
-                0x00002070                        . = ALIGN (0x4)
+                0x00001d20                        . = ALIGN (0x4)
  *(.hash)
  *(.gnu.hash)
-                0x00002070                        . = ALIGN (0x4)
+                0x00001d20                        . = ALIGN (0x4)
  *(.gnu_extab* .gnu.linkonce.extab.*)
-                0x00002070                        . = ALIGN (0x4)
-                0x00002070                        __exidx_start = .
+                0x00001d20                        . = ALIGN (0x4)
+                0x00001d20                        __exidx_start = .
  *(.gnu_exidx* .gnu.linkonce.exidx.*)
-                0x00002070                        . = ALIGN (0x4)
-                0x00002070                        __exidx_end = .
-                0x00001c58                        __text_size = SIZEOF (.text)
-                0x00002070                        __text_end = (__text_start + __text_size)
+                0x00001d20                        . = ALIGN (0x4)
+                0x00001d20                        __exidx_end = .
+                0x000018e0                        __text_size = SIZEOF (.text)
+                0x00001d20                        __text_end = (__text_start + __text_size)
                 0x00000001                        ASSERT (((__text_start == __text_end) || ((__text_end - ORIGIN (FLASH)) <= LENGTH (FLASH))), error: .text is too large to fit in FLASH memory segment)
 
-.glue_7         0x00002070        0x0
- .glue_7        0x00002070        0x0 linker stubs
+.glue_7         0x00001d20        0x0
+ .glue_7        0x00001d20        0x0 linker stubs
 
-.glue_7t        0x00002070        0x0
- .glue_7t       0x00002070        0x0 linker stubs
+.glue_7t        0x00001d20        0x0
+ .glue_7t       0x00001d20        0x0 linker stubs
 
-.vfp11_veneer   0x00002070        0x0
- .vfp11_veneer  0x00002070        0x0 linker stubs
+.vfp11_veneer   0x00001d20        0x0
+ .vfp11_veneer  0x00001d20        0x0 linker stubs
 
-.v4_bx          0x00002070        0x0
- .v4_bx         0x00002070        0x0 linker stubs
+.v4_bx          0x00001d20        0x0
+ .v4_bx         0x00001d20        0x0 linker stubs
 
-.iplt           0x00002070        0x0
- .iplt          0x00002070        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.iplt           0x00001d20        0x0
+ .iplt          0x00001d20        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.rel.dyn        0x00002070        0x0
- .rel.iplt      0x00002070        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
-                0x00002070                        . = ALIGN (0x4)
+.rel.dyn        0x00001d20        0x0
+ .rel.iplt      0x00001d20        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x00001d20                        . = ALIGN (0x4)
 
-.copy.table     0x00002070       0x30
-                0x00002070                        __copy_table_start__ = .
-                0x00002070        0x4 LONG 0x20b8 __data_load_start
-                0x00002074        0x4 LONG 0x20000000 __data_start
-                0x00002078        0x4 LONG 0x3 ((__data_end - __data_start) / 0x4)
-                0x0000207c        0x4 LONG 0x20c4 __sdata_load_start
-                0x00002080        0x4 LONG 0x2000000c __sdata_start
-                0x00002084        0x4 LONG 0x0 ((__sdata_end - __sdata_start) / 0x4)
-                0x00002088        0x4 LONG 0x20c4 __tdata_load_start
-                0x0000208c        0x4 LONG 0x2000000c __tdata_start
-                0x00002090        0x4 LONG 0x0 ((__tdata_end - __tdata_start) / 0x4)
-                0x00002094        0x4 LONG 0x20c4 __fast_load_start
-                0x00002098        0x4 LONG 0x2000000c __fast_start
-                0x0000209c        0x4 LONG 0x0 ((__fast_end - __fast_start) / 0x4)
-                0x000020a0                        __copy_table_end__ = .
-                0x000020a0                        . = ALIGN (0x4)
+.copy.table     0x00001d20       0x30
+                0x00001d20                        __copy_table_start__ = .
+                0x00001d20        0x4 LONG 0x1d68 __data_load_start
+                0x00001d24        0x4 LONG 0x20000000 __data_start
+                0x00001d28        0x4 LONG 0x2 ((__data_end - __data_start) / 0x4)
+                0x00001d2c        0x4 LONG 0x1d70 __sdata_load_start
+                0x00001d30        0x4 LONG 0x20000008 __sdata_start
+                0x00001d34        0x4 LONG 0x0 ((__sdata_end - __sdata_start) / 0x4)
+                0x00001d38        0x4 LONG 0x1d70 __tdata_load_start
+                0x00001d3c        0x4 LONG 0x20000008 __tdata_start
+                0x00001d40        0x4 LONG 0x0 ((__tdata_end - __tdata_start) / 0x4)
+                0x00001d44        0x4 LONG 0x1d70 __fast_load_start
+                0x00001d48        0x4 LONG 0x20000008 __fast_start
+                0x00001d4c        0x4 LONG 0x0 ((__fast_end - __fast_start) / 0x4)
+                0x00001d50                        __copy_table_end__ = .
+                0x00001d50                        . = ALIGN (0x4)
 
-.zero.table     0x000020a0       0x18
-                0x000020a0                        __zero_table_start__ = .
-                0x000020a0        0x4 LONG 0x2000000c __bss_start
-                0x000020a4        0x4 LONG 0x12 ((__bss_end - __bss_start) / 0x4)
-                0x000020a8        0x4 LONG 0x20000054 __sbss_start
-                0x000020ac        0x4 LONG 0x0 ((__sbss_end - __sbss_start) / 0x4)
-                0x000020b0        0x4 LONG 0x20000054 __tbss_start
-                0x000020b4        0x4 LONG 0x0 ((__tbss_end - __tbss_start) / 0x4)
-                0x000020b8                        __zero_table_end__ = .
-                0x000020b8                        . = ALIGN (0x4)
-                0x000020b8                        __etext = .
+.zero.table     0x00001d50       0x18
+                0x00001d50                        __zero_table_start__ = .
+                0x00001d50        0x4 LONG 0x20000008 __bss_start
+                0x00001d54        0x4 LONG 0x11 ((__bss_end - __bss_start) / 0x4)
+                0x00001d58        0x4 LONG 0x2000004c __sbss_start
+                0x00001d5c        0x4 LONG 0x0 ((__sbss_end - __sbss_start) / 0x4)
+                0x00001d60        0x4 LONG 0x2000004c __tbss_start
+                0x00001d64        0x4 LONG 0x0 ((__tbss_end - __tbss_start) / 0x4)
+                0x00001d68                        __zero_table_end__ = .
+                0x00001d68                        . = ALIGN (0x4)
+                0x00001d68                        __etext = .
                 [!provide]                        PROVIDE (etext = .)
-                0x000020b8                        PROVIDE (_etext = .)
-                0x000020b8                        . = ALIGN (0x4)
-                0x000020b8                        __all_data_load_start = .
-                0x000020b8                        __data_load_start = .
+                0x00001d68                        PROVIDE (_etext = .)
+                0x00001d68                        . = ALIGN (0x4)
+                0x00001d68                        __all_data_load_start = .
+                0x00001d68                        __data_load_start = .
 
-.data           0x20000000        0xc load address 0x000020b8
+.data           0x20000000        0x8 load address 0x00001d68
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        __data_start = .
                 0x20000000                        __data_start__ = .
  *(vtable)
  *(.data* .gnu.linkonce.d.*)
- .data.SystemCoreClock
-                0x20000000        0x4 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
-                0x20000000                SystemCoreClock
  .data.instance
-                0x20000004        0x8 H:/Code/nrfx/src/sample/../../build/main.c.o
-                0x20000004                instance
-                0x2000000c                        . = ALIGN (0x4)
+                0x20000000        0x8 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+                0x20000000                instance
+                0x20000008                        . = ALIGN (0x4)
  *(.jcr*)
-                0x0000000c                        __data_size = SIZEOF (.data)
-                0x2000000c                        __data_end = (__data_start + __data_size)
-                0x2000000c                        __data_end__ = __data_end
-                0x000020c4                        __data_load_end = (__data_load_start + __data_size)
+                0x00000008                        __data_size = SIZEOF (.data)
+                0x20000008                        __data_end = (__data_start + __data_size)
+                0x20000008                        __data_end__ = __data_end
+                0x00001d70                        __data_load_end = (__data_load_start + __data_size)
                 0x00000001                        ASSERT (((__data_load_start == __data_load_end) || ((__data_load_end - ORIGIN (FLASH)) <= LENGTH (FLASH))), error: .data is too large to fit in FLASH memory segment)
                 0x00000001                        ASSERT (((__data_start == __data_end) || ((__data_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .data is too large to fit in RAM memory segment)
 
 .tm_clone_table
-                0x2000000c        0x0 load address 0x000020c4
+                0x20000008        0x0 load address 0x00001d70
  .tm_clone_table
-                0x2000000c        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x20000008        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  .tm_clone_table
-                0x2000000c        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtend.o
+                0x20000008        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtend.o
 
-.igot.plt       0x2000000c        0x0 load address 0x000020c4
- .igot.plt      0x2000000c        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
-                0x2000000c                        . = ALIGN (0x4)
-                0x000020c4                        __sdata_load_start = ALIGN (__data_load_end, 0x4)
+.igot.plt       0x20000008        0x0 load address 0x00001d70
+ .igot.plt      0x20000008        0x0 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x20000008                        . = ALIGN (0x4)
+                0x00001d70                        __sdata_load_start = ALIGN (__data_load_end, 0x4)
 
-.sdata          0x2000000c        0x0 load address 0x000020c4
-                0x2000000c                        . = ALIGN (0x4)
-                0x2000000c                        __sdata_start = .
+.sdata          0x20000008        0x0 load address 0x00001d70
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        __sdata_start = .
  *(.sdata .sdata.* .gnu.linkonce.s.*)
  *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
                 0x00000000                        __sdata_size = SIZEOF (.sdata)
-                0x2000000c                        __sdata_end = (__sdata_start + __sdata_size)
-                0x000020c4                        __sdata_load_end = (__sdata_load_start + __sdata_size)
+                0x20000008                        __sdata_end = (__sdata_start + __sdata_size)
+                0x00001d70                        __sdata_load_end = (__sdata_load_start + __sdata_size)
                 0x00000001                        ASSERT (((__sdata_load_start == __sdata_load_end) || ((__sdata_load_end - ORIGIN (FLASH)) <= LENGTH (FLASH))), error: .sdata is too large to fit in FLASH memory segment)
                 0x00000001                        ASSERT (((__sdata_start == __sdata_end) || ((__sdata_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .sdata is too large to fit in RAM memory segment)
-                0x2000000c                        . = ALIGN (0x4)
-                0x000020c4                        __tdata_load_start = ALIGN (__sdata_load_end, 0x4)
+                0x20000008                        . = ALIGN (0x4)
+                0x00001d70                        __tdata_load_start = ALIGN (__sdata_load_end, 0x4)
 
-.tdata          0x2000000c        0x0 load address 0x000020c4
-                0x2000000c                        . = ALIGN (0x4)
-                0x2000000c                        __tdata_start = .
+.tdata          0x20000008        0x0 load address 0x00001d70
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        __tdata_start = .
  *(.tdata .tdata.* .gnu.linkonce.td.*)
  *(.stdata .stdata.*)
                 0x00000000                        __tdata_size = SIZEOF (.tdata)
-                0x2000000c                        __tdata_end = (__tdata_start + __tdata_size)
-                0x000020c4                        __tdata_load_end = (__tdata_load_start + __tdata_size)
+                0x20000008                        __tdata_end = (__tdata_start + __tdata_size)
+                0x00001d70                        __tdata_load_end = (__tdata_load_start + __tdata_size)
                 0x00000001                        ASSERT (((__tdata_load_start == __tdata_load_end) || ((__tdata_load_end - ORIGIN (FLASH)) <= LENGTH (FLASH))), error: .tdata is too large to fit in FLASH memory segment)
                 0x00000001                        ASSERT (((__tdata_start == __tdata_end) || ((__tdata_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .tdata is too large to fit in RAM memory segment)
-                0x2000000c                        . = ALIGN (0x4)
-                0x000020c4                        __fast_load_start = ALIGN (__tdata_load_end, 0x4)
+                0x20000008                        . = ALIGN (0x4)
+                0x00001d70                        __fast_load_start = ALIGN (__tdata_load_end, 0x4)
 
-.fast           0x2000000c        0x0 load address 0x000020c4
-                0x2000000c                        . = ALIGN (0x4)
-                0x2000000c                        __fast_start = .
+.fast           0x20000008        0x0 load address 0x00001d70
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        __fast_start = .
  *(.fast .fast.*)
  *(.fastcode .fastcode.*)
  *(.fastdata .fastdata.*)
  *(.ramcode*)
                 0x00000000                        __fast_size = SIZEOF (.fast)
-                0x2000000c                        __fast_end = (__fast_start + __fast_size)
-                0x000020c4                        __fast_load_end = (__fast_load_start + __fast_size)
+                0x20000008                        __fast_end = (__fast_start + __fast_size)
+                0x00001d70                        __fast_load_end = (__fast_load_start + __fast_size)
                 0x00000001                        ASSERT (((__fast_load_start == __fast_load_end) || ((__fast_load_end - ORIGIN (FLASH)) <= LENGTH (FLASH))), error: .fast is too large to fit in FLASH memory segment)
                 0x00000001                        ASSERT (((__fast_start == __fast_end) || ((__fast_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .fast is too large to fit in RAM memory segment)
-                0x2000000c                        . = ALIGN (0x4)
-                0x2000000c                        _edata = .
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        _edata = .
                 [!provide]                        PROVIDE (edata = .)
                 [!provide]                        PROVIDE (__edata = .)
-                0x2000000c                        . = ALIGN (0x4)
+                0x20000008                        . = ALIGN (0x4)
 
-.noinit         0x2000000c        0x0
-                0x2000000c                        __noinit_start = .
+.noinit         0x20000008        0x0
+                0x20000008                        __noinit_start = .
                 [!provide]                        PROVIDE (__noinit_start__ = .)
  *(.noinit .noinit.*)
  *(.no_init .no_init.*)
  *(.noninit .noninit.*)
  *(.non_init .non_init.*)
-                0x2000000c                        . = ALIGN (0x4)
+                0x20000008                        . = ALIGN (0x4)
                 0x00000000                        __noinit_size = SIZEOF (.noinit)
-                0x2000000c                        __noinit_end = (__noinit_start + __noinit_size)
-                0x2000000c                        __noinit_end__ = __noinit_end
+                0x20000008                        __noinit_end = (__noinit_start + __noinit_size)
+                0x20000008                        __noinit_end__ = __noinit_end
                 0x00000001                        ASSERT (((__noinit_start == __noinit_end) || ((__noinit_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .noinit is too large to fit in RAM memory segment)
-                0x2000000c                        . = ALIGN (0x4)
+                0x20000008                        . = ALIGN (0x4)
 
-.bss            0x2000000c       0x48 load address 0x000020c4
-                0x2000000c                        __bss_start = .
-                0x2000000c                        PROVIDE (__bss_start__ = .)
+.bss            0x20000008       0x44 load address 0x00001d70
+                0x20000008                        __bss_start = .
+                0x20000008                        PROVIDE (__bss_start__ = .)
  *(.bss* .gnu.linkonce.b.*)
  .bss.completed.1
-                0x2000000c        0x1 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
- *fill*         0x2000000d        0x3 
- .bss.object.0  0x20000010       0x18 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
- .bss.uarte_buffer
-                0x20000028        0x1 H:/Code/nrfx/src/sample/../../build/main.c.o
-                0x20000028                uarte_buffer
- *fill*         0x20000029        0x3 
- .bss.m_cb      0x2000002c       0x24 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x20000008        0x1 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ *fill*         0x20000009        0x3 
+ .bss.object.0  0x2000000c       0x18 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .bss.m_cb      0x20000024       0x24 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .bss.__stdio_exit_handler
-                0x20000050        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
-                0x20000050                __stdio_exit_handler
+                0x20000048        0x4 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x20000048                __stdio_exit_handler
  *(.dynbss)
  *(COMMON)
-                0x20000054                        . = ALIGN (0x4)
-                0x00000048                        __bss_size = SIZEOF (.bss)
-                0x20000054                        __bss_end = (__bss_start + __bss_size)
-                0x20000054                        __bss_end__ = __bss_end
+                0x2000004c                        . = ALIGN (0x4)
+                0x00000044                        __bss_size = SIZEOF (.bss)
+                0x2000004c                        __bss_end = (__bss_start + __bss_size)
+                0x2000004c                        __bss_end__ = __bss_end
                 0x00000001                        ASSERT (((__bss_start == __bss_end) || ((__bss_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .bss is too large to fit in RAM memory segment)
-                0x20000054                        . = ALIGN (0x4)
+                0x2000004c                        . = ALIGN (0x4)
 
-.sbss           0x20000054        0x0
-                0x20000054                        __sbss_start = .
-                0x20000054                        __sbss_start__ = __sbss_start
+.sbss           0x2000004c        0x0
+                0x2000004c                        __sbss_start = .
+                0x2000004c                        __sbss_start__ = __sbss_start
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
  *(.dynsbss)
-                0x20000054                        . = ALIGN (0x4)
+                0x2000004c                        . = ALIGN (0x4)
                 0x00000000                        __sbss_size = SIZEOF (.sbss)
-                0x20000054                        __sbss_end = (__sbss_start + __sbss_size)
-                0x20000054                        __sbss_end__ = __sbss_end
+                0x2000004c                        __sbss_end = (__sbss_start + __sbss_size)
+                0x2000004c                        __sbss_end__ = __sbss_end
                 0x00000001                        ASSERT (((__sbss_start == __sbss_end) || ((__sbss_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .sbss is too large to fit in RAM memory segment)
-                0x20000054                        . = ALIGN (0x4)
+                0x2000004c                        . = ALIGN (0x4)
 
-.tbss           0x20000054        0x0
-                0x20000054                        __tbss_start = .
-                0x20000054                        __tbss_start__ = __tbss_start
-                0x20000054                        . = ALIGN (0x4)
+.tbss           0x2000004c        0x0
+                0x2000004c                        __tbss_start = .
+                0x2000004c                        __tbss_start__ = __tbss_start
+                0x2000004c                        . = ALIGN (0x4)
  *(.tbss .tbss.* .gnu.linkonce.tb.*)
  *(.tcommon)
  *(.stbss .stbss.*)
-                0x20000054                        . = ALIGN (0x4)
+                0x2000004c                        . = ALIGN (0x4)
                 0x00000000                        __tbss_size = SIZEOF (.tbss)
-                0x20000054                        __tbss_end = (__tbss_start + __tbss_size)
-                0x20000054                        __tbss_end__ = __tbss_end
+                0x2000004c                        __tbss_end = (__tbss_start + __tbss_size)
+                0x2000004c                        __tbss_end__ = __tbss_end
                 0x00000001                        ASSERT (((__tbss_start == __tbss_end) || ((__tbss_end - ORIGIN (RAM)) <= LENGTH (RAM))), error: .tbss is too large to fit in RAM memory segment)
-                0x20000054                        . = ALIGN (0x4)
-                0x20000054                        . = SEGMENT_START ("ldata-segment", .)
-                0x20000054                        . = ALIGN (0x4)
+                0x2000004c                        . = ALIGN (0x4)
+                0x2000004c                        . = SEGMENT_START ("ldata-segment", .)
+                0x2000004c                        . = ALIGN (0x4)
 
-.heap           0x20000054     0x4004
-                0x20000054                        __heap_start = .
-                0x20000054                        __HeapBase = .
-                0x20000054                        __heap_base = .
-                0x20000054                        __end = .
-                0x20000054                        PROVIDE (end = .)
+.heap           0x2000004c     0x4004
+                0x2000004c                        __heap_start = .
+                0x2000004c                        __HeapBase = .
+                0x2000004c                        __heap_base = .
+                0x2000004c                        __end = .
+                0x2000004c                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
                 [!provide]                        PROVIDE (__end__ = .)
  *(.heap*)
- *fill*         0x20000054        0x4 
- .heap          0x20000058     0x4000 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
-                0x20004058                        __HeapLimit = .
-                0x20004058                        __heap_limit = .
-                0x20004058                        __heap_end = .
+ *fill*         0x2000004c        0x4 
+ .heap          0x20000050     0x4000 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+                0x20004050                        __HeapLimit = .
+                0x20004050                        __heap_limit = .
+                0x20004050                        __heap_end = .
 
-.stack_dummy    0x20000058     0x4000
+.stack_dummy    0x20000050     0x4000
  *(.stack*)
- .stack         0x20000058     0x4000 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+ .stack         0x20000050     0x4000 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
                 0x20040000                        __stack_end = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20040000                        __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
                 0x2003c000                        __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x20040000                        PROVIDE (__stack = __StackTop)
                 0x00000001                        ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
-                0x0000000c                        DataInitFlashUsed = (__bss_start - __data_start)
-                0x000020b8                        CodeFlashUsed = (_etext - ORIGIN (FLASH))
-                0x000020c4                        TotalFlashUsed = (CodeFlashUsed + DataInitFlashUsed)
+                0x00000008                        DataInitFlashUsed = (__bss_start - __data_start)
+                0x00001d68                        CodeFlashUsed = (_etext - ORIGIN (FLASH))
+                0x00001d70                        TotalFlashUsed = (CodeFlashUsed + DataInitFlashUsed)
                 0x00000001                        ASSERT ((TotalFlashUsed <= LENGTH (FLASH)), region FLASH overflowed with .data and user data)
-OUTPUT(H:/Code/nrfx/src/sample/../../build/nrf_test1.elf elf32-littlearm)
+OUTPUT(C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrf_test1.elf elf32-littlearm)
 LOAD linker stubs
 
 .ARM.attributes
@@ -1527,36 +1519,33 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000005e       0x24 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
  .ARM.attributes
-                0x00000082       0x24 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+                0x00000082       0x24 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
  .ARM.attributes
-                0x000000a6       0x3a H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x000000a6       0x3a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .ARM.attributes
-                0x000000e0       0x3a H:/Code/nrfx/src/sample/../../build/main.c.o
+                0x000000e0       0x3a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
  .ARM.attributes
-                0x0000011a       0x3a H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
+                0x0000011a       0x3a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
  .ARM.attributes
-                0x00000154       0x3a H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x00000154       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
  .ARM.attributes
-                0x0000018e       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
+                0x0000018c       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
  .ARM.attributes
-                0x000001c6       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x000001c4       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
  .ARM.attributes
-                0x000001fe       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+                0x000001fc       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
  .ARM.attributes
-                0x00000236       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
+                0x00000234       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
  .ARM.attributes
-                0x0000026e       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
+                0x0000026c       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtend.o
  .ARM.attributes
-                0x000002a6       0x38 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtend.o
- .ARM.attributes
-                0x000002de       0x26 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtn.o
+                0x000002a4       0x26 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crtn.o
 
 .comment        0x00000000       0x44
- .comment       0x00000000       0x44 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+ .comment       0x00000000       0x44 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
                                  0x45 (size before relaxing)
- .comment       0x00000044       0x45 H:/Code/nrfx/src/sample/../../build/main.c.o
- .comment       0x00000044       0x45 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .comment       0x00000044       0x45 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+ .comment       0x00000044       0x45 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .comment       0x00000044       0x45 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
 .debug_line_str
                 0x00000000      0x125
@@ -1564,127 +1553,117 @@ LOAD linker stubs
                 0x00000000      0x125 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard/crt0.o
                                  0xda (size before relaxing)
  .debug_line_str
-                0x00000125       0x4b H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+                0x00000125       0x4b C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
 
-.debug_line     0x00000000     0x3c4f
- .debug_line    0x00000000       0x84 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
- .debug_line    0x00000084     0x197f H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_line    0x00001a03      0x6f5 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_line    0x000020f8     0x148f H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_line    0x00003587      0x6c8 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+.debug_line     0x00000000     0x3586
+ .debug_line    0x00000000       0x84 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+ .debug_line    0x00000084     0x197f C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_line    0x00001a03      0x6f4 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_line    0x000020f7     0x148f C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
-.debug_info     0x00000000     0x6669
- .debug_info    0x00000000      0x2d8 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
- .debug_info    0x000002d8     0x2c1d H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_info    0x00002ef5      0xfeb H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_info    0x00003ee0     0x245c H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_info    0x0000633c      0x32d H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+.debug_info     0x00000000     0x5f4d
+ .debug_info    0x00000000      0x2d8 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+ .debug_info    0x000002d8     0x2c1d C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_info    0x00002ef5      0xbfc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_info    0x00003af1     0x245c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
-.debug_abbrev   0x00000000      0xb1d
- .debug_abbrev  0x00000000       0x28 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
- .debug_abbrev  0x00000028      0x251 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_abbrev  0x00000279      0x2f9 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_abbrev  0x00000572      0x3bc H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_abbrev  0x0000092e      0x1ef H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+.debug_abbrev   0x00000000      0x891
+ .debug_abbrev  0x00000000       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+ .debug_abbrev  0x00000028      0x251 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_abbrev  0x00000279      0x25c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_abbrev  0x000004d5      0x3bc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
-.debug_aranges  0x00000000      0x750
+.debug_aranges  0x00000000      0x6a8
  .debug_aranges
-                0x00000000       0x20 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+                0x00000000       0x20 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
  .debug_aranges
-                0x00000020      0x398 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000020      0x398 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .debug_aranges
-                0x000003b8       0x68 H:/Code/nrfx/src/sample/../../build/main.c.o
+                0x000003b8       0x30 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
  .debug_aranges
-                0x00000420      0x2c0 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_aranges
-                0x000006e0       0x70 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x000003e8      0x2c0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
-.debug_str      0x00000000    0x97a79
- .debug_str     0x00000000    0x97a79 H:/Code/nrfx/src/sample/../../build/gcc_startup_nrf5340_application.S.o
+.debug_str      0x00000000    0x97695
+ .debug_str     0x00000000    0x97695 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/gcc_startup_nrf5340_application.S.o
                                 0x3e7 (size before relaxing)
- .debug_str     0x00097a79    0x845bd H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_str     0x00097a79    0x93e7c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_str     0x00097a79    0x94d63 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_str     0x00097a79    0x92bbd H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+ .debug_str     0x00097695    0x845bd C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_str     0x00097695    0x93af2 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_str     0x00097695    0x94d63 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
 .debug_rnglists
-                0x00000000      0x55e
+                0x00000000      0x4e4
  .debug_rnglists
-                0x00000000      0x2ae H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
+                0x00000000      0x2ae C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
  .debug_rnglists
-                0x000002ae       0x4a H:/Code/nrfx/src/sample/../../build/main.c.o
+                0x000002ae       0x20 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
  .debug_rnglists
-                0x000002f8      0x216 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_rnglists
-                0x0000050e       0x50 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+                0x000002ce      0x216 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
-.debug_macro    0x00000000    0x18810
- .debug_macro   0x00000000      0x16a H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x0000016a      0xaf0 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00000c5a       0x22 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00000c7c       0x56 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00000cd2       0x51 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00000d23      0x103 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00000e26       0x6a H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00000e90      0x1df H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x0000106f       0x22 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00001091       0x2e H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x000010bf       0x50 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x0000110f       0x1c H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x0000112b       0x29 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00001154       0xfb H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x0000124f     0x1685 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x000028d4       0x5e H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00002932      0x7ba H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x000030ec    0x1248c H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00015578       0x52 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x000155ca       0x12 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x000155dc       0x6a H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00015646      0x44e H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00015a94      0x5e4 H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_macro   0x00016078      0x2e0 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016358       0x1c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016374      0x5f9 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x0001696d      0x189 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016af6       0x7b H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016b71       0x2a H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016b9b       0x3c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016bd7       0x34 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016c0b      0x38c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016f97       0x16 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016fad       0x4a H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00016ff7       0x34 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x0001702b       0x10 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x0001703b       0x58 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017093      0x1de H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017271       0x10 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017281       0x3c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x000172bd       0x7c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017339       0x17 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017350       0xee H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x0001743e      0xa39 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017e77       0x64 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017edb      0x10f H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00017fea       0xf7 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x000180e1       0x34 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00018115       0x4c H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00018161       0x16 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00018177       0x7b H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x000181f2       0x10 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00018202       0x22 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x00018224       0x17 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_macro   0x0001823b      0x2cd H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00018508       0x28 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00018530       0x41 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_macro   0x00018571      0x29f H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
+.debug_macro    0x00000000    0x18553
+ .debug_macro   0x00000000      0x16a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x0000016a      0xaf0 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00000c5a       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00000c7c       0x56 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00000cd2       0x51 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00000d23      0x103 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00000e26       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00000e90      0x1df C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x0000106f       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00001091       0x2e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x000010bf       0x50 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x0000110f       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x0000112b       0x29 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00001154       0xfb C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x0000124f     0x1685 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x000028d4       0x5e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00002932      0x7ba C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x000030ec    0x1248c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00015578       0x52 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x000155ca       0x12 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x000155dc       0x6a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00015646      0x44e C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00015a94      0x5e4 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_macro   0x00016078      0x2c2 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x0001633a       0x1c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016356      0x5f9 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x0001694f      0x189 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016ad8       0x7b C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016b53       0x2a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016b7d       0x3c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016bb9       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016bed      0x38c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016f79       0x16 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016f8f       0x4a C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00016fd9       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x0001700d       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x0001701d       0x58 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017075      0x1de C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017253       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017263       0x3c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x0001729f       0x7c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x0001731b       0x17 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017332       0xee C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017420      0xa39 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017e59       0x64 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017ebd      0x10f C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00017fcc       0xf7 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x000180c3       0x34 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x000180f7       0x4c C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00018143       0x16 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00018159       0x7b C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x000181d4       0x10 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x000181e4       0x22 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x00018206       0x17 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_macro   0x0001821d      0x2cd C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x000184ea       0x28 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_macro   0x00018512       0x41 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
 
-.debug_frame    0x00000000     0x2210
- .debug_frame   0x00000000     0x10bc H:/Code/nrfx/src/sample/../../build/system_nrf5340_application.c.o
- .debug_frame   0x000010bc      0x180 H:/Code/nrfx/src/sample/../../build/main.c.o
- .debug_frame   0x0000123c      0xc58 H:/Code/nrfx/src/sample/../../build/nrfx_uarte.c.o
- .debug_frame   0x00001e94      0x1a4 H:/Code/nrfx/src/sample/../../build/nrfx_systick.c.o
- .debug_frame   0x00002038       0x28 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
- .debug_frame   0x00002060      0x144 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x000021a4       0x20 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x000021c4       0x2c C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x000021f0       0x20 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
+.debug_frame    0x00000000     0x1f70
+ .debug_frame   0x00000000     0x10bc C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/system_nrf5340_application.c.o
+ .debug_frame   0x000010bc       0x84 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o
+ .debug_frame   0x00001140      0xc58 C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/nrfx_uarte.c.o
+ .debug_frame   0x00001d98       0x28 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00001dc0      0x144 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00001f04       0x20 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00001f24       0x2c C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x00001f50       0x20 C:/Apps/arm-toolchain/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)

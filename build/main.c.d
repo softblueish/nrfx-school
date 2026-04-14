@@ -1,8 +1,9 @@
-H:/Code/nrfx/src/sample/../../build/main.c.o: main.c H:/Code/nrfx/nrfx.h \
- H:/Code/nrfx/src/sample/nrfx_config.h \
- H:/Code/nrfx/src/nrfx_config_common.h \
- H:/Code/nrfx/src/sample/nrfx_config_nrf5340_application.h \
- H:/Code/nrfx/drivers/nrfx_common.h \
+C:/Users/arh25001/Documents/nrfx-school/src/sample/../../build/main.c.o: \
+ main.c C:/Users/arh25001/Documents/nrfx-school/nrfx.h \
+ C:/Users/arh25001/Documents/nrfx-school/src/sample/nrfx_config.h \
+ C:/Users/arh25001/Documents/nrfx-school/src/nrfx_config_common.h \
+ C:/Users/arh25001/Documents/nrfx-school/src/sample/nrfx_config_nrf5340_application.h \
+ C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_common.h \
  C:/Apps/arm-toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  C:/Apps/arm-toolchain/arm-none-eabi/include/stdint.h \
  C:/Apps/arm-toolchain/arm-none-eabi/include/machine/_default_types.h \
@@ -28,32 +29,38 @@ H:/Code/nrfx/src/sample/../../build/main.c.o: main.c H:/Code/nrfx/nrfx.h \
  C:/Apps/arm-toolchain/lib/gcc/arm-none-eabi/13.2.1/include/syslimits.h \
  C:/Apps/arm-toolchain/arm-none-eabi/include/limits.h \
  C:/Apps/arm-toolchain/arm-none-eabi/include/sys/syslimits.h \
- H:/Code/nrfx/mdk/nrf.h H:/Code/nrfx/mdk/nrf5340_application.h \
- H:/Code/nrfx/CMSIS/Core/Include/core_cm33.h \
- H:/Code/nrfx/CMSIS/Core/Include/cmsis_version.h \
- H:/Code/nrfx/CMSIS/Core/Include/cmsis_compiler.h \
- H:/Code/nrfx/CMSIS/Core/Include/cmsis_gcc.h \
- H:/Code/nrfx/CMSIS/Core/Include/mpu_armv8.h \
- H:/Code/nrfx/mdk/system_nrf5340_application.h \
- H:/Code/nrfx/mdk/nrf5340_application_bitfields.h \
- H:/Code/nrfx/mdk/nrf5340_application_name_change.h \
- H:/Code/nrfx/mdk/compiler_abstraction.h \
- H:/Code/nrfx/drivers/nrfx_utils.h \
- H:/Code/nrfx/drivers/nrfx_utils_internal.h \
- H:/Code/nrfx/mdk/nrf_peripherals.h \
- H:/Code/nrfx/mdk/nrf5340_application_peripherals.h \
- H:/Code/nrfx/drivers/nrfx_ext.h H:/Code/nrfx/src/nrfx_glue.h \
- H:/Code/nrfx/hal/nrf_common.h H:/Code/nrfx/haly/nrfy_common.h \
- H:/Code/nrfx/drivers/nrfx_errors.h \
- H:/Code/nrfx/mdk/nrf5340_application.h H:/Code/nrfx/hal/nrf_gpio.h \
- H:/Code/nrfx/drivers/include/nrfx_systick.h \
- H:/Code/nrfx/hal/nrf_systick.h H:/Code/nrfx/drivers/include/nrfx_uarte.h \
- H:/Code/nrfx/haly/nrfy_uarte.h H:/Code/nrfx/hal/nrf_uarte.h
-H:/Code/nrfx/nrfx.h:
-H:/Code/nrfx/src/sample/nrfx_config.h:
-H:/Code/nrfx/src/nrfx_config_common.h:
-H:/Code/nrfx/src/sample/nrfx_config_nrf5340_application.h:
-H:/Code/nrfx/drivers/nrfx_common.h:
+ C:/Users/arh25001/Documents/nrfx-school/mdk/nrf.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application.h \
+ C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/core_cm33.h \
+ C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/cmsis_version.h \
+ C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/cmsis_compiler.h \
+ C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/cmsis_gcc.h \
+ C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/mpu_armv8.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/system_nrf5340_application.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application_bitfields.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application_name_change.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/compiler_abstraction.h \
+ C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_utils.h \
+ C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_utils_internal.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/nrf_peripherals.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application_peripherals.h \
+ C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_ext.h \
+ C:/Users/arh25001/Documents/nrfx-school/src/nrfx_glue.h \
+ C:/Users/arh25001/Documents/nrfx-school/hal/nrf_common.h \
+ C:/Users/arh25001/Documents/nrfx-school/haly/nrfy_common.h \
+ C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_errors.h \
+ C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application.h \
+ C:/Users/arh25001/Documents/nrfx-school/hal/nrf_gpio.h \
+ C:/Users/arh25001/Documents/nrfx-school/drivers/include/nrfx_systick.h \
+ C:/Users/arh25001/Documents/nrfx-school/hal/nrf_systick.h \
+ C:/Users/arh25001/Documents/nrfx-school/drivers/include/nrfx_uarte.h \
+ C:/Users/arh25001/Documents/nrfx-school/haly/nrfy_uarte.h \
+ C:/Users/arh25001/Documents/nrfx-school/hal/nrf_uarte.h
+C:/Users/arh25001/Documents/nrfx-school/nrfx.h:
+C:/Users/arh25001/Documents/nrfx-school/src/sample/nrfx_config.h:
+C:/Users/arh25001/Documents/nrfx-school/src/nrfx_config_common.h:
+C:/Users/arh25001/Documents/nrfx-school/src/sample/nrfx_config_nrf5340_application.h:
+C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_common.h:
 C:/Apps/arm-toolchain/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
 C:/Apps/arm-toolchain/arm-none-eabi/include/stdint.h:
 C:/Apps/arm-toolchain/arm-none-eabi/include/machine/_default_types.h:
@@ -79,30 +86,30 @@ C:/Apps/arm-toolchain/lib/gcc/arm-none-eabi/13.2.1/include/limits.h:
 C:/Apps/arm-toolchain/lib/gcc/arm-none-eabi/13.2.1/include/syslimits.h:
 C:/Apps/arm-toolchain/arm-none-eabi/include/limits.h:
 C:/Apps/arm-toolchain/arm-none-eabi/include/sys/syslimits.h:
-H:/Code/nrfx/mdk/nrf.h:
-H:/Code/nrfx/mdk/nrf5340_application.h:
-H:/Code/nrfx/CMSIS/Core/Include/core_cm33.h:
-H:/Code/nrfx/CMSIS/Core/Include/cmsis_version.h:
-H:/Code/nrfx/CMSIS/Core/Include/cmsis_compiler.h:
-H:/Code/nrfx/CMSIS/Core/Include/cmsis_gcc.h:
-H:/Code/nrfx/CMSIS/Core/Include/mpu_armv8.h:
-H:/Code/nrfx/mdk/system_nrf5340_application.h:
-H:/Code/nrfx/mdk/nrf5340_application_bitfields.h:
-H:/Code/nrfx/mdk/nrf5340_application_name_change.h:
-H:/Code/nrfx/mdk/compiler_abstraction.h:
-H:/Code/nrfx/drivers/nrfx_utils.h:
-H:/Code/nrfx/drivers/nrfx_utils_internal.h:
-H:/Code/nrfx/mdk/nrf_peripherals.h:
-H:/Code/nrfx/mdk/nrf5340_application_peripherals.h:
-H:/Code/nrfx/drivers/nrfx_ext.h:
-H:/Code/nrfx/src/nrfx_glue.h:
-H:/Code/nrfx/hal/nrf_common.h:
-H:/Code/nrfx/haly/nrfy_common.h:
-H:/Code/nrfx/drivers/nrfx_errors.h:
-H:/Code/nrfx/mdk/nrf5340_application.h:
-H:/Code/nrfx/hal/nrf_gpio.h:
-H:/Code/nrfx/drivers/include/nrfx_systick.h:
-H:/Code/nrfx/hal/nrf_systick.h:
-H:/Code/nrfx/drivers/include/nrfx_uarte.h:
-H:/Code/nrfx/haly/nrfy_uarte.h:
-H:/Code/nrfx/hal/nrf_uarte.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/nrf.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application.h:
+C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/core_cm33.h:
+C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/cmsis_version.h:
+C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/cmsis_compiler.h:
+C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/cmsis_gcc.h:
+C:/Users/arh25001/Documents/nrfx-school/CMSIS/Core/Include/mpu_armv8.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/system_nrf5340_application.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application_bitfields.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application_name_change.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/compiler_abstraction.h:
+C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_utils.h:
+C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_utils_internal.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/nrf_peripherals.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application_peripherals.h:
+C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_ext.h:
+C:/Users/arh25001/Documents/nrfx-school/src/nrfx_glue.h:
+C:/Users/arh25001/Documents/nrfx-school/hal/nrf_common.h:
+C:/Users/arh25001/Documents/nrfx-school/haly/nrfy_common.h:
+C:/Users/arh25001/Documents/nrfx-school/drivers/nrfx_errors.h:
+C:/Users/arh25001/Documents/nrfx-school/mdk/nrf5340_application.h:
+C:/Users/arh25001/Documents/nrfx-school/hal/nrf_gpio.h:
+C:/Users/arh25001/Documents/nrfx-school/drivers/include/nrfx_systick.h:
+C:/Users/arh25001/Documents/nrfx-school/hal/nrf_systick.h:
+C:/Users/arh25001/Documents/nrfx-school/drivers/include/nrfx_uarte.h:
+C:/Users/arh25001/Documents/nrfx-school/haly/nrfy_uarte.h:
+C:/Users/arh25001/Documents/nrfx-school/hal/nrf_uarte.h:
