@@ -6,6 +6,7 @@
 #include <nrfx_systick.h>
 #include <nrfx_uarte.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 // Serial communication 115200 baud
 
@@ -51,7 +52,9 @@ void print_string(char* input){
 }
 
 void send_int(int input){
-    char buffer[100]
+    char buffer[15]; // UINT_MAX < 10^15
+    sprintf(buffer, "%d", input);
+    print_string(buffer);
 }
 
 int main(void){
@@ -59,10 +62,13 @@ int main(void){
     nrfx_uarte_init(&instance, &config, NULL);
     char clearScreen[] = CLEAR_SCREEN;
     nrfx_uarte_tx(&instance, &clearScreen, sizeof(clearScreen), 0);
-    char msg1[100] = "Program started\r\n";
+    char msg1[] = "Program started, please write an integer (as a string) to echo.\r\n";
     print_string(msg1);
     int input1;
     read_int(&input1, 100);
-    char msg2[100] = "\r\nProgram ended, stored integer. Have you checked GDB?\r\n";
+    char msg2[] = "\r\nStored string as integer. Printing integer as a string...\r\n";
     print_string(msg2);
+    send_int(input1);
+    char msg3[] = "\r\nProgram ended.";
+    print_string(msg3);
 }
