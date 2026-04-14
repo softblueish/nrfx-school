@@ -5,6 +5,7 @@
 #include <nrf_gpio.h>
 #include <nrfx_systick.h>
 #include <nrfx_uarte.h>
+#include <nrfx_rtc.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -34,17 +35,7 @@ LED 4       P0.31
 
 nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0);
 
-void read_int(int* output, int lengthCieling){
-    char buffer[lengthCieling];
-    for(int i = 0; i < lengthCieling; i++){
-        nrfx_uarte_rx(&instance, &buffer[i], sizeof(buffer[i]));
-        if(buffer[i] == '\r'){
-            buffer[i] = '\0';
-            break;
-        }
-    }
-    *output = atoi(buffer);
-}
+const nrfx_rtc_t rtc = NRFX_RTC_INSTANCE(0);
 
 void print_string(char* input){
     for(int i = 0; input[i] != '\0'; i++)
@@ -59,27 +50,14 @@ void send_int(int input){
 
 int main(void){
     const nrfx_uarte_config_t config = NRFX_UARTE_DEFAULT_CONFIG(PIN_TXD, PIN_RXD);
-    nrfx_systick_init();
     nrfx_uarte_init(&instance, &config, NULL);
+    nrfx_rtc_config_t rtc_config = NRFX_RTC_DEFAULT_CONFIG;
+    nrfx_rtc_init(&rtc_instance, &rtc_config, NULL);
+    nrfx_rtc_enable(&rtc_instance);
+
     char clearScreen[] = CLEAR_SCREEN;
     nrfx_uarte_tx(&instance, &clearScreen, sizeof(clearScreen), 0);
-    char msg1[] = "Program started, please write the wait time as an integer.\r\n";
+    char msg1[] = "Program started, please press any button to generate a random number.\r\n";
     print_string(msg1);
-    int input1;
-    read_int(&input1, 100);
-    if(input1 > 15) {
-        char msg[] = "\r\nWait time too long (> 15). Skipping wait.\r\n";
-        print_string(msg);
-        input1 = 0;
-    }
-    else {
-        char msg2[] = "\r\nWaiting for ";
-        print_string(msg2);
-        send_int(input1);
-        char msg3[] = " seconds...\r\n";
-        print_string(msg3);
-    }
-    nrfx_systick_delay_ms(input1 * 1000);
-    char msg4[] = "Done! Program ended.";
-    print_string(msg4);
+    
 }
