@@ -1,6 +1,6 @@
 # School assignments involving the nRF-series of chips
 
-<img width="1388" height="197" alt="image" src="https://github.com/user-attachments/assets/ff101f07-3ddb-4a78-8cf1-9bc853fde479" />
+<img width="1412" height="302" alt="image" src="https://github.com/user-attachments/assets/bf14f83c-4ea5-4d67-9a86-ec4073e119d1" />
 
 <img width="1514" height="328" alt="image" src="https://github.com/user-attachments/assets/e4c9657b-1690-440d-9605-f89d7976f2ee" />
 
