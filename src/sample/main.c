@@ -26,6 +26,60 @@ LED 4       P0.31
 
 */
 
-int main(void){
+#define LED1 (28)
+#define LED2 (29)
+#define LED3 (30)
+#define LED4 (31)
+#define BUTTON1 (23)
+#define BUTTON2 (24)
+#define BUTTON3 (8)
+#define BUTTON4 (9)
 
+void getButtonState(int outputState[]){
+    outputState[0] = !nrf_gpio_pin_read(BUTTON1);
+    outputState[1] = !nrf_gpio_pin_read(BUTTON2);
+    outputState[2] = !nrf_gpio_pin_read(BUTTON3);
+    outputState[3] = !nrf_gpio_pin_read(BUTTON4);
+}
+
+void updateLEDState(int inputState[]){
+    nrf_gpio_pin_write(LED1, !inputState[0]);
+    nrf_gpio_pin_write(LED2, !inputState[1]);
+    nrf_gpio_pin_write(LED3, !inputState[2]);
+    nrf_gpio_pin_write(LED4, !inputState[3]);
+}
+
+int main(void){
+    int pastButtonState[4] = {0, 0, 0, 0,};
+    int currentButtonState[4] = {0, 0, 0, 0};
+    int LEDstate[4] = {0, 0, 0, 0};
+
+    // Set I/O
+    nrf_gpio_cfg_output(LED1);
+    nrf_gpio_cfg_output(LED2);
+    nrf_gpio_cfg_output(LED3);
+    nrf_gpio_cfg_output(LED4);
+    nrf_gpio_cfg_input(BUTTON1, NRF_GPIO_PIN_PULLUP);
+    nrf_gpio_cfg_input(BUTTON2, NRF_GPIO_PIN_PULLUP);
+    nrf_gpio_cfg_input(BUTTON3, NRF_GPIO_PIN_PULLUP);
+    nrf_gpio_cfg_input(BUTTON4, NRF_GPIO_PIN_PULLUP);
+
+    // Set LEDs to off
+    nrf_gpio_pin_write(LED1, 1);
+    nrf_gpio_pin_write(LED2, 1);
+    nrf_gpio_pin_write(LED3, 1);
+    nrf_gpio_pin_write(LED4, 1);
+    
+    while(1){
+        getButtonState(currentButtonState);
+        for(int i = 0; i < 4; i++){
+            if(currentButtonState[i] != pastButtonState[i] && currentButtonState[i] == 1){
+                LEDstate[i] = !LEDstate[i];
+            }
+        }
+        updateLEDState(LEDstate);
+        for(int i = 0; i < 4; i++){
+            pastButtonState[i] = currentButtonState[i];
+        }
+    }
 }
