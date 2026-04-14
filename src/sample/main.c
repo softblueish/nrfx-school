@@ -68,15 +68,17 @@ int main(void){
     int input1;
     read_int(&input1, 100);
     if(input1 > 15) {
-        char msg[] = "Wait time too long (> 15). Skipping wait.\r\n";
+        char msg[] = "\r\nWait time too long (> 15). Skipping wait.\r\n";
         print_string(msg);
         input1 = 0;
     }
-    char msg2[] = "\r\nWaiting for ";
-    print_string(msg2);
-    send_int(input1);
-    char msg3[] = " seconds...\r\n";
-    print_string(msg3);
+    else {
+        char msg2[] = "\r\nWaiting for ";
+        print_string(msg2);
+        send_int(input1);
+        char msg3[] = " seconds...\r\n";
+        print_string(msg3);
+    }
     nrfx_systick_delay_ms(input1 * 1000);
     char msg4[] = "Done! Program ended.";
     print_string(msg4);
