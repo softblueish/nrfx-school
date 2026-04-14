@@ -6,6 +6,8 @@
 #include <nrfx_systick.h>
 #include <nrfx_uarte.h>
 
+// Serial communication 115200 baud
+
 /*By Daniel Morberg*/
 /*'Requires 'NRFX_SYSTICK_ENABLED 1' in nrfx_config_nrf5340_application.h and nrfx_systic.c included*/
 /*Ni kan behöva köra en "make clean" efter ni inkluderat en ny .c fil. */
