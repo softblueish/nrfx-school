@@ -5,7 +5,7 @@
 #include <nrf_gpio.h>
 #include <nrfx_systick.h>
 #include <nrfx_uarte.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 // Serial communication 115200 baud
 
@@ -34,7 +34,7 @@ LED 4       P0.31
 nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0);
 
 void read_int(int* output, int lengthCieling){
-    char[lengthCieling] buffer;
+    char buffer[100] = "";
     for(int i = 0; i < lengthCieling; i++){
         nrfx_uarte_rx(&instance, &buffer[i], sizeof(buffer[i]));
         if(buffer[i] == '\r'){
@@ -45,6 +45,11 @@ void read_int(int* output, int lengthCieling){
     *output = atoi(buffer);
 }
 
+void print_string(char* input){
+    for(int i = 0; input[i] != '\0'; i++)
+        nrfx_uarte_tx(&instance, &input[i], sizeof(input[i]), 0);
+}
+
 int main(void){
     const nrfx_uarte_config_t config = NRFX_UARTE_DEFAULT_CONFIG(PIN_TXD, PIN_RXD);
     nrfx_uarte_init(&instance, &config, NULL);
@@ -52,9 +57,8 @@ int main(void){
     nrfx_uarte_tx(&instance, &clearScreen, sizeof(clearScreen), 0);
     char msg1[100] = "Program started\r\n";
     print_string(msg1);
-    char input1[100];
-    read_string(input1, 100);
-    char msg2[100] = "\r\nProgram ended with string ";
+    int input1;
+    read_int(&input1, 100);
+    char msg2[100] = "\r\nProgram ended, stored integer. Have you checked GDB?\r\n";
     print_string(msg2);
-    print_string(input1);
 }
