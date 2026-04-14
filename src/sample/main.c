@@ -34,7 +34,7 @@ LED 4       P0.31
 nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0);
 
 void read_int(int* output, int lengthCieling){
-    char buffer[100] = "";
+    char buffer[lengthCieling];
     for(int i = 0; i < lengthCieling; i++){
         nrfx_uarte_rx(&instance, &buffer[i], sizeof(buffer[i]));
         if(buffer[i] == '\r'){
@@ -48,6 +48,10 @@ void read_int(int* output, int lengthCieling){
 void print_string(char* input){
     for(int i = 0; input[i] != '\0'; i++)
         nrfx_uarte_tx(&instance, &input[i], sizeof(input[i]), 0);
+}
+
+void send_int(int input){
+    char buffer[100]
 }
 
 int main(void){
