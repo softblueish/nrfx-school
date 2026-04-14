@@ -33,6 +33,11 @@ LED 4       P0.31
 #define PIN_RXD 22
 #define CLEAR_SCREEN "\033c"
 
+#define BUTTON1 (23)
+#define BUTTON2 (24)
+#define BUTTON3 (8)
+#define BUTTON4 (9)
+
 nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0);
 
 const nrfx_rtc_t rtc = NRFX_RTC_INSTANCE(0);
