@@ -1,5 +1,7 @@
 # School assignments involving the nRF-series of chips
 
+<img width="1388" height="197" alt="image" src="https://github.com/user-attachments/assets/ff101f07-3ddb-4a78-8cf1-9bc853fde479" />
+
 # Below is the README for nrfx
 
 ## Overview
