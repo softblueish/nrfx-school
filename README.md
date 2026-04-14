@@ -2,6 +2,9 @@
 
 <img width="1388" height="197" alt="image" src="https://github.com/user-attachments/assets/ff101f07-3ddb-4a78-8cf1-9bc853fde479" />
 
+<img width="1889" height="420" alt="image" src="https://github.com/user-attachments/assets/5f2a90ab-b56c-4b1d-9100-04a624694a34" />
+
+
 # Below is the README for nrfx
 
 ## Overview
