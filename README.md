@@ -1,4 +1,6 @@
-# nrfx
+# School assignments involving the nRF-series of chips
+
+# Below is the README for nrfx
 
 ## Overview
 

@@ -24,13 +24,6 @@ LED 4       P0.31
 
 */
 
-// i should really worry more about privacy im noticing
-
-#define LED1 28
-#define LED2 29
-#define BUTTON1 23
-#define BUTTON2 24
-
 int main(void){
 
 }
