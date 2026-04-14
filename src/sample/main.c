@@ -5,6 +5,7 @@
 #include <nrf_gpio.h>
 #include <nrfx_systick.h>
 #include <nrfx_uarte.h>
+#include <stlib.h>
 
 // Serial communication 115200 baud
 
@@ -32,19 +33,16 @@ LED 4       P0.31
 
 nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0);
 
-void read_string(char* output, int lengthCieling){
+void read_int(int* output, int lengthCieling){
+    char[lengthCieling] buffer;
     for(int i = 0; i < lengthCieling; i++){
-        nrfx_uarte_rx(&instance, &output[i], sizeof(output[i]));
-        if(output[i] == '\r'){
-            output[i] = '\0';
+        nrfx_uarte_rx(&instance, &buffer[i], sizeof(buffer[i]));
+        if(buffer[i] == '\r'){
+            buffer[i] = '\0';
             break;
         }
     }
-}
-
-void print_string(char* input){
-    for(int i = 0; input[i] != '\0'; i++)
-        nrfx_uarte_tx(&instance, &input[i], sizeof(input[i]), 0);
+    *output = atoi(buffer);
 }
 
 int main(void){
