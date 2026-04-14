@@ -59,16 +59,25 @@ void send_int(int input){
 
 int main(void){
     const nrfx_uarte_config_t config = NRFX_UARTE_DEFAULT_CONFIG(PIN_TXD, PIN_RXD);
+    nrfx_systick_init();
     nrfx_uarte_init(&instance, &config, NULL);
     char clearScreen[] = CLEAR_SCREEN;
     nrfx_uarte_tx(&instance, &clearScreen, sizeof(clearScreen), 0);
-    char msg1[] = "Program started, please write an integer (as a string) to echo.\r\n";
+    char msg1[] = "Program started, please write the wait time as an integer.\r\n";
     print_string(msg1);
     int input1;
     read_int(&input1, 100);
-    char msg2[] = "\r\nStored string as integer. Printing integer as a string...\r\n";
+    if(input1 > 15) {
+        char msg[] = "Wait time too long (> 15). Skipping wait.\r\n";
+        print_string(msg);
+        input1 = 0;
+    }
+    char msg2[] = "\r\nWaiting for ";
     print_string(msg2);
     send_int(input1);
-    char msg3[] = "\r\nProgram ended.";
+    char msg3[] = " seconds...\r\n";
     print_string(msg3);
+    nrfx_systick_delay_ms(input1 * 1000);
+    char msg4[] = "Done! Program ended.";
+    print_string(msg4);
 }
