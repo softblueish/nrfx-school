@@ -1,7 +1,9 @@
 #ifndef LIST_H
 #define LIST_H
 
-#include <nrfx.h>
+//#include <nrfx.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /*******************************************************/
 /* DVA270 - Interface för dubbellänkad lista           */
@@ -19,7 +21,7 @@ typedef int Data;
 /* dubbellänkad lista.                                 */
 /*******************************************************/
 
-/*
+
 //struktdefinition för dubbellänkad lista
 typedef struct node
 {
@@ -27,7 +29,7 @@ typedef struct node
 	struct node* next;
 	struct node* previous;
 }Node;
-*/
+
 
 /*
 //struktdefinition för enkellänkad lista
