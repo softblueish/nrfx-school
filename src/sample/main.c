@@ -35,23 +35,24 @@ int main(void){
     // Test a list
     List list = create_empty_list();
     nrfx_uarte_t instance = init_uarte();
+    print_string(CLEAR_SCREEN);
     while(1) {
         char msg[100];
         int command;
-        print_string(CLEAR_SCREEN);
-        print_string("Enter command (int): ");
-        read_int( &command);
+        print_string("\r\nEnter command (int): ");
+        read_int(&command);
+        print_string("\r\n");
         switch(command) {
             case 1: {
                 int data;
-                print_string("Enter data to add first (int): ");
+                print_string("\r\nEnter data to add first (int): ");
                 read_int(&data);
                 add_first(&list, data);
                 break;
             }
             case 2: {
                 int data;
-                print_string("Enter data to add last (int): ");
+                print_string("\r\nEnter data to add last (int): ");
                 read_int(&data);
                 add_last(&list, data);
                 break;

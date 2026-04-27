@@ -19,6 +19,8 @@ static Node * create_list_node(const Data data)
 		exit(1); // RAM full
 	}
 	new_node->data = data;
+	new_node->next = NULL;
+	new_node->previous = NULL;
 	return new_node;
 }
 
@@ -44,6 +46,7 @@ void add_first(List *list, const Data data)
 		return;
 	}
 	add_first(&(*list)->previous, data);
+	print_string("Done!\r\n");
 	return;
 }
 
@@ -115,8 +118,8 @@ void print_list_worker(const List list)
 	{	
 		return;
 	}
-	nrfx_uarte_t instance = get_uarte();
-	print_int(instance, list->data);
+	print_string("\r\n");
+	print_int(list->data);
 	print_list_worker(list->next);
 	return;
 }

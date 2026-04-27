@@ -26,8 +26,9 @@ void print_string(char* message){
 
 void print_int(int input){
     char msg[100];
-    sprintf(msg, "%d", input);
-    print_string(msg);
+    sprintf(msg, "%d\0", input);
+    for(int i = 0; msg[i] != '\0'; i++)
+        nrfx_uarte_tx(&saved_instance, &msg[i], sizeof(msg[i]), 0);
 }
 
 void read_int(int* output){
@@ -40,5 +41,4 @@ void read_int(int* output){
         }
     }
     *output = atoi(buffer);
-    print_string("\r\n");
 }
