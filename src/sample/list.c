@@ -1,9 +1,5 @@
 #include "list.h"
-
-// Send data via UART
-void uart_send(const Data *data) {
-	printf("%d\n", *data);
-}
+#include "uarte-commands.h"
 
 //Returnera en tom lista - funktionen är färdig
 List create_empty_list(void)
@@ -73,6 +69,7 @@ void add_last(List *list, const Data data)
 //precondition: listan är inte tom (testa med assert)
 void remove_first(List *list)
 {
+	List* fallbackList = (*list)->previous;
 	if(is_empty((*list)->next))
 	{
 		free(*list);
@@ -80,6 +77,7 @@ void remove_first(List *list)
 		return;
 	}
 	remove_first(&(*list)->next);
+	if(list == NULL) list = fallbackList;
 	return;
 }
 
@@ -87,6 +85,7 @@ void remove_first(List *list)
 //precondition: listan är inte tom (testa med assert)
 void remove_last(List *list)
 {
+	List* fallbackList = (*list)->next;
 	if(is_empty((*list)->previous))
 	{
 		free(*list);
@@ -94,6 +93,7 @@ void remove_last(List *list)
 		return;
 	}
 	remove_last(&(*list)->previous);
+	if(list == NULL) list = fallbackList;
 	return;
 }
 
@@ -115,7 +115,8 @@ void print_list_worker(const List list)
 	{	
 		return;
 	}
-	uart_send(&list->data);
+	nrfx_uarte_t instance = get_uarte();
+	print_int(instance, list->data);
 	print_list_worker(list->next);
 	return;
 }

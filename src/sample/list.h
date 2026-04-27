@@ -1,7 +1,7 @@
 #ifndef LIST_H
 #define LIST_H
 
-//#include <nrfx.h>
+#include <nrfx.h>
 #include <stdio.h>
 #include <stdlib.h>
 

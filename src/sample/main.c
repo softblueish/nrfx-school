@@ -1,12 +1,13 @@
-/*#include <nrfx.h>
+#include <nrfx.h>
 #include <nrf5340_application.h>
 #include <nrfx_config.h>
 #include <nrf.h>
 #include <nrf_gpio.h>
 #include <nrfx_systick.h>
-#include <nrfx_uarte.h>*/
+#include <nrfx_uarte.h>
 
 #include "list.h"
+#include "uarte-commands.h"
 
 // Serial communication 115200 baud
 
@@ -28,25 +29,30 @@ LED 4       P0.31
 
 */
 
+#define CLEAR_SCREEN "\033c"
+
 int main(void){
     // Test a list
     List list = create_empty_list();
+    nrfx_uarte_t instance = init_uarte();
     while(1) {
+        char msg[100];
         int command;
-        printf("Enter command (int): ");
-        scanf("%d", &command);
+        print_string(CLEAR_SCREEN);
+        print_string("Enter command (int): ");
+        read_int( &command);
         switch(command) {
             case 1: {
                 int data;
-                printf("Enter data to add first (int): ");
-                scanf("%d", &data);
+                print_string("Enter data to add first (int): ");
+                read_int(&data);
                 add_first(&list, data);
                 break;
             }
             case 2: {
                 int data;
-                printf("Enter data to add last (int): ");
-                scanf("%d", &data);
+                print_string("Enter data to add last (int): ");
+                read_int(&data);
                 add_last(&list, data);
                 break;
             }
@@ -61,23 +67,26 @@ int main(void){
                 break;
             case 6: {
                 int data;
-                printf("Enter data to search for (int): ");
-                scanf("%d", &data);
+                print_string("Enter data to search for (int): ");
+                read_int(&data);
                 if(search(list, data)) {
-                    printf("Data found in list.\n");
+                    print_string("Data found in list.\n");
                 } else {
-                    printf("Data not found in list.\n");
+                    print_string("Data not found in list.\n");
                 }
                 break;
             }
             case 7:
-                printf("First element: %d\n", get_first_element(list));
+                sprintf(msg, "First element: %d\n", get_first_element(list));
+                print_string(msg);
                 break;
             case 8:
-                printf("Last element: %d\n", get_last_element(list));
+                sprintf("Last element: %d\n", get_last_element(list));
+                print_string(msg);
                 break;
             case 9:
-                printf("Number of nodes: %d\n", number_of_nodes(list));
+                sprintf("Number of nodes: %d\n", number_of_nodes(list));
+                print_string(msg);
                 break;
             default:
                 printf("Invalid command.\n");

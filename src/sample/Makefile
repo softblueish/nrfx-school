@@ -23,6 +23,8 @@ SRC_FILES        += main.c
 # SRC_FILES        += inte_en_riktigt_fil.c
 SRC_FILES        += $(PROJ)/drivers/src/nrfx_uarte.c
 SRC_FILES 	  += $(PROJ)/drivers/src/nrfx_systick.c
+SRC_FILES	  += $(PROJ)/src/sample/uarte-commands.c
+SRC_FILES		+= $(PROJ)/src/sample/list.c
 # Definera folders
 SRC_DIRS         := $(dir $(SRC_FILES))
 SRCES            := $(notdir $(SRC_FILES))
