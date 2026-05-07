@@ -68,7 +68,6 @@ static void build_tree_sorted_from_array(BSTree* tree, const int arr[], int size
     {
         (*tree) = create_tree_node(data);
     }
-    printf("Selected index: %d, data: %d\n", selected_index, data);
     (*tree)->data = data;
     if(size == 1)
     {
@@ -294,17 +293,46 @@ int number_of_nodes(const BSTree tree)
     return 1 + number_of_nodes(tree->left) + number_of_nodes(tree->right);
 }
 
+void depth_helper(BSTree* tree, int depth, int* maxdepth) {
+    if(*tree == NULL)
+    {
+        return;
+    }
+    depth++;
+    if(depth > (*maxdepth))
+    {
+        (*maxdepth) = depth;
+    }
+    depth_helper(&(*tree)->left, depth, maxdepth);
+    depth_helper(&(*tree)->right, depth, maxdepth);
+}
+
 /* Returnerar hur djupt trädet är */
-int depth(const BSTree tree)
+int depth(BSTree tree)
 {
-    
+    int result = 0;
+    depth_helper(&tree, 0, &result);
+    return result;
 }
 
 /* Returnerar minimidjupet för trädet
 Se math.h för användbara funktioner*/
 int min_depth(const BSTree tree)
 {
+    return ceil(log(number_of_nodes(tree) + 1)/log(2));
+}
 
+/* Töm trädet och frigör minnet för de olika noderna */
+void free_tree(BSTree* tree)
+{
+    if((*tree) == NULL)
+    {
+        return;
+    }
+    free_tree(&(*tree)->left);
+    free_tree(&(*tree)->right);
+    free(*tree);
+    (*tree) = NULL;
 }
 
 /* Balansera trädet så att depth(tree) == minDepth(tree) */
@@ -316,17 +344,14 @@ void balance_tree(BSTree* tree)
 - bygg upp trädet rekursivt från arrayen med buildTreeSortedFromArray()
 - frigör minne för den dynamiskt allokerade arrayen
 
-
 Post-conditions:
 - tree har lika många noder som tidigare
   - djupet för trädet är samma som minimumdjupet för trädet */
+    int size = number_of_nodes(*tree);
+    int* sorted_array = write_sorted_to_array(*tree);
+    free_tree(tree);
+    build_tree_sorted_from_array(tree, sorted_array, size);
+    free(sorted_array);
+    return;
 }
-
-
-/* Töm trädet och frigör minnet för de olika noderna */
-void free_tree(BSTree* tree)
-{
-
-}
-
 

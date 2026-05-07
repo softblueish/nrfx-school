@@ -4,17 +4,27 @@
 
 int main(){
     BSTree tree = create_empty_tree();
-    insert_sorted(&tree, 5);
-    insert_sorted(&tree, 3);
-    insert_sorted(&tree, 7);
+    insert_sorted(&tree, 1);
     insert_sorted(&tree, 2);
+    insert_sorted(&tree, 3);
     insert_sorted(&tree, 4);
+    insert_sorted(&tree, 5);
     insert_sorted(&tree, 6);
-    insert_sorted(&tree, 8);
+    insert_sorted(&tree, 7);
+    print_string("Preorder: ");
     print_preorder(tree);
+    print_string("\nDepth: ");
+    print_int(depth(tree));
+    print_string("\nMin Depth: ");
+    print_int(min_depth(tree));
     print_string("\n");
-    remove_element(&tree, 8);
+    balance_tree(&tree);
+    print_string("\nPreorder: ");
     print_preorder(tree);
+    print_string("\nDepth: ");
+    print_int(depth(tree));
+    print_string("\nMin Depth: ");
+    print_int(min_depth(tree));
     print_string("\n");
     return 0;
 }

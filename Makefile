@@ -1,5 +1,5 @@
 compile:
-	gcc -o program main.c BSTree.c uarte-commands.c
+	gcc -o program main.c BSTree.c uarte-commands.c -lm
 clean:
 	rm -f program
 run:
