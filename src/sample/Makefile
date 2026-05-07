@@ -19,6 +19,8 @@ STACK_SIZE       := 16384
 SRC_FILES        += $(PROJ)/mdk/gcc_startup_nrf5340_application.S
 SRC_FILES        += $(PROJ)/mdk/system_nrf5340_application.c
 SRC_FILES        += main.c
+SRC_FILES        += BSTree.c
+SRC_FILES        += uarte-commands.c
 # Här kan ni länka till extra source filer ni vill använda.
 # SRC_FILES        += inte_en_riktigt_fil.c
 SRC_FILES        += $(PROJ)/drivers/src/nrfx_uarte.c

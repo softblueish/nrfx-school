@@ -5,6 +5,8 @@
 #include <nrf_gpio.h>
 #include <nrfx_systick.h>
 #include <nrfx_uarte.h>
+#include "BSTree.h"
+#include "uarte-commands.h"
 
 // Serial communication 115200 baud
 
@@ -27,5 +29,27 @@ LED 4       P0.31
 */
 
 int main(void){
-
+    BSTree tree = create_empty_tree();
+    insert_sorted(&tree, 1);
+    insert_sorted(&tree, 2);
+    insert_sorted(&tree, 3);
+    insert_sorted(&tree, 4);
+    insert_sorted(&tree, 5);
+    insert_sorted(&tree, 6);
+    insert_sorted(&tree, 7);
+    print_string("Preorder: ");
+    print_preorder(tree);
+    print_string("\nDepth: ");
+    print_int(depth(tree));
+    print_string("\nMin Depth: ");
+    print_int(min_depth(tree));
+    print_string("\n");
+    balance_tree(&tree);
+    print_string("\nPreorder: ");
+    print_preorder(tree);
+    print_string("\nDepth: ");
+    print_int(depth(tree));
+    print_string("\nMin Depth: ");
+    print_int(min_depth(tree));
+    print_string("\n");
 }
