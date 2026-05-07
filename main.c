@@ -1,30 +1,17 @@
 #include <stdio.h>
-#include "BSTree.h"
+#include "hashtable.h"
 #include "uarte-commands.h"
 
 int main(){
-    BSTree tree = create_empty_tree();
-    insert_sorted(&tree, 1);
-    insert_sorted(&tree, 2);
-    insert_sorted(&tree, 3);
-    insert_sorted(&tree, 4);
-    insert_sorted(&tree, 5);
-    insert_sorted(&tree, 6);
-    insert_sorted(&tree, 7);
-    print_string("Preorder: ");
-    print_preorder(tree);
-    print_string("\nDepth: ");
-    print_int(depth(tree));
-    print_string("\nMin Depth: ");
-    print_int(min_depth(tree));
-    print_string("\n");
-    balance_tree(&tree);
-    print_string("\nPreorder: ");
-    print_preorder(tree);
-    print_string("\nDepth: ");
-    print_int(depth(tree));
-    print_string("\nMin Depth: ");
-    print_int(min_depth(tree));
-    print_string("\n");
+    HashTable ht;
+    initTable(&ht);
+    insert(&ht, 1, "One");
+    insert(&ht, 11, "Eleven");
+    printTable(&ht);
+    printf("Key 1: %s\n", get(&ht, 1));
+    printf("Key 11: %s\n", get(&ht, 11));
+    printf("Removing key 1: %d\n", removeKey(&ht, 1));
+    printf("Key 1 after removal: %s\n", get(&ht, 1));
+    printTable(&ht);
     return 0;
 }
