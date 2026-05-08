@@ -44,11 +44,11 @@ int main(void){
     print_string("Done!");
     print_newline();
     print_string("Measuring the amount of ticks it takes to find three elements selected by the programmer (first, fifth and last)...");
-    int searchValues1[3] = {10, 14, 19};
+    int searchValues[3] = {10, 14, 19};
     for(int i = 0; i < 3; i++){
         nrf_systick_val_clear();
         long unsigned pretime = nrf_systick_val_get();
-        get(&ht, searchValues1[i]);
+        get(&ht, searchValues[i]);
         long unsigned posttime = nrf_systick_val_get();
         print_newline();
         print_string("Found the "); 
@@ -58,7 +58,8 @@ int main(void){
         print_string(" ticks!");
     }
     print_newline();
-    
+    print_newline();
+
     int keys2[10] = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
     print_string("Creating a perfectly non-ideal hashtable...");
     for(int i = 0; i < 10; i++){
@@ -71,7 +72,7 @@ int main(void){
     for(int i = 0; i < 3; i++){
         nrf_systick_val_clear();
         long unsigned pretime = nrf_systick_val_get();
-        get(&ht, searchValues1[i]);
+        get(&ht, searchValues[i]);
         long unsigned posttime = nrf_systick_val_get();
         print_newline();
         print_string("Found the "); 
