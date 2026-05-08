@@ -24,7 +24,7 @@ int hash(int key)
 void insert(HashTable* ht, int key, const char* value)
 {
     int index = hash(key);
-    HashNode* newNode = (HashNode*)malloc(sizeof(HashNode));
+    Node* newNode = (Node*)malloc(sizeof(Node));
     if (!newNode) {
         fprintf(stderr, "Failed to allocate memory\n");
         return;
@@ -42,7 +42,7 @@ void insert(HashTable* ht, int key, const char* value)
 char* get(HashTable* ht, int key)
 {
     int index = hash(key);
-    HashNode* current_node = ht->table[index];
+    Node* current_node = ht->table[index];
     while (current_node != NULL)
     {
         if (current_node->data.key == key)
@@ -58,8 +58,8 @@ char* get(HashTable* ht, int key)
 int removeKey(HashTable* ht, int key)
 {
     int index = hash(key);
-    HashNode* current_node = ht->table[index];
-    HashNode* previous_node = NULL;
+    Node* current_node = ht->table[index];
+    Node* previous_node = NULL;
     while (current_node != NULL)
     {
         if (current_node->data.key == key)
@@ -86,7 +86,7 @@ void printTable(HashTable* ht)
 {
     for (int i = 0; i < TABLE_SIZE; i++)
     {
-        HashNode* current_node = ht->table[i];
+        Node* current_node = ht->table[i];
         printf("Index %d: ", i);
         while (current_node != NULL)
         {
