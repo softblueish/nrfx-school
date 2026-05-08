@@ -6,7 +6,7 @@
 #include <nrfx_systick.h>
 #include <math.h>
 #include <nrfx_uarte.h>
-#include "BSTree.h"
+#include "hashtable.h"
 #include "uarte-commands.h"
 
 // Serial communication 115200 baud
@@ -29,106 +29,55 @@ LED 4       P0.31
 
 */
 
-#define TEST_SIZE 6
-const int tree_size[] = {3, 7, 15, 31, 63, 127};
-
 int main(void){
     init_uarte();
     nrfx_systick_init();
     clear_screen();
-    BSTree tree = create_empty_tree();
-    int first = 0;
-    int unbalanced_speed[TEST_SIZE] = {0, 0, 0, 0, 0, 0};
-    print_string("Testing unbalanced trees of values ");
-    for(int i = 0; i < TEST_SIZE; i++) {
-        print_int(tree_size[i]);
-        if(i != TEST_SIZE - 1)
-            print_string(", ");
-        else
-            print_string(".");
+    HashTable ht;
+    int keys1[10] = {10, 11, 12, 13, 14, 15, 16, 17, 18, 19};
+    char values[10][20] = {"meow1", "meow2", "meow3", "meow4", "meow5", "meow6", "meow7", "meow8", "meow9", "meow10"};
+    print_string("Creating a perfect hashtable...");
+    for(int i = 0; i < 10; i++){
+        insert(&ht, keys1[i], values[i]);
     }
     print_newline();
-    for(int i = 0; i < TEST_SIZE; i++) {
-        print_string("Creating tree for tree size: ");
-        print_int(tree_size[i]);
-        print_newline();
-        for(int j = 1; j <= tree_size[i]; j++) {
-            insert_sorted(&tree, j);
-        }
-        print_string("Starting search for ");
-        print_int(tree_size[i]);
-        print_string(" in tree...");
-        print_newline();
+    print_string("Done!");
+    print_newline();
+    print_string("Measuring the amount of ticks it takes to find three elements selected by the programmer (first, fifth and last)...");
+    int searchValues1[3] = {10, 14, 19};
+    for(int i = 0; i < 3; i++){
         nrf_systick_val_clear();
-        unsigned int pretime = nrf_systick_val_get();
-        find(tree, tree_size[i]);
-        unsigned int posttime = nrf_systick_val_get();
-        print_string("Value found after ");
-        print_int((pretime - posttime));
+        long unsigned pretime = nrf_systick_val_get();
+        get(&ht, searchValues1[i]);
+        long unsigned posttime = nrf_systick_val_get();
+        print_newline();
+        print_string("Found the "); 
+        print_int(i);
+        print_string("# value after ");
+        print_int(pretime - posttime);
         print_string(" ticks!");
-        unbalanced_speed[i] = (pretime - posttime);
-        if(first == 0)
-        {
-            first = (pretime - posttime);
-        }
-        else
-        {
-            print_string(" ... which is around ");
-            print_int(ceil((pretime - posttime)/(double)first));
-            print_string("x slower compared to the first (unbalanced) measurment.");
-        }
-        print_newline();
-        free_tree(&tree);
     }
     print_newline();
-    print_string("Testing balanced trees of values ");
-    for(int i = 0; i < TEST_SIZE; i++) {
-        print_int(tree_size[i]);
-        if(i != TEST_SIZE - 1)
-            print_string(", ");
-        else
-            print_string(".");
+    
+    int keys2[10] = {10, 10, 10, 10, 10, 10, 10, 10, 10, 10};
+    print_string("Creating a perfectly non-ideal hashtable...");
+    for(int i = 0; i < 10; i++){
+        insert(&ht, keys2[i], values[i]);
     }
     print_newline();
-    first = 0;
-    for(int i = 0; i < TEST_SIZE; i++) {
-        print_string("Creating tree for tree size: ");
-        print_int(tree_size[i]);
-        print_newline();
-        for(int j = 1; j <= tree_size[i]; j++) {
-            insert_sorted(&tree, j);
-        }
-        print_string("Balancing tree...");
-        print_newline();
-        balance_tree(&tree);
-        print_string("Starting search for ");
-        print_int(tree_size[i]);
-        print_string(" in tree...");
-        print_newline();
+    print_string("Done!");
+    print_newline();
+    print_string("Measuring the amount of ticks it takes to find three elements selected by the programmer (first, fifth and last)...");
+    for(int i = 0; i < 3; i++){
         nrf_systick_val_clear();
-        unsigned int pretime = nrf_systick_val_get();
-        find(tree, tree_size[i]);
-        unsigned int posttime = nrf_systick_val_get();
-        print_string("Value found after ");
-        print_int((pretime - posttime));
-        print_string(" ticks!");
-        if(first == 0)
-        {
-            first = (pretime - posttime);
-            print_string(" ... which is around ");
-            print_int((unbalanced_speed[i])/(int)(pretime - posttime));
-            print_string("x faster than the unbalanced counterpart of the same tree.");
-        }
-        else
-        {
-            print_string(" ... which is around ");
-            print_int(ceil((pretime - posttime)/(double)first));
-            print_string("x slower compared to the first (balanced) measurment and ");
-            print_int((unbalanced_speed[i])/(int)(pretime - posttime));
-            print_string("x faster than the unbalanced counterpart of the same tree.");
-        }
+        long unsigned pretime = nrf_systick_val_get();
+        get(&ht, searchValues1[i]);
+        long unsigned posttime = nrf_systick_val_get();
         print_newline();
-        free_tree(&tree);
+        print_string("Found the "); 
+        print_int(i);
+        print_string("# value after ");
+        print_int(pretime - posttime);
+        print_string(" ticks!");
     }
-    print_newline();
 }
