@@ -195,7 +195,7 @@ void remove_element(BSTree* tree, int data)
     Glöm inte att frigöra noden när den länkats ur trädet'*/
     BSTree current_node = (*tree);
     BSTree parent_node = NULL;
-    while(true) {
+    while(1) {
         if(current_node == NULL)
         {
             return;

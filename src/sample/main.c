@@ -29,6 +29,8 @@ LED 4       P0.31
 */
 
 int main(void){
+    init_uarte();
+    clear_screen();
     BSTree tree = create_empty_tree();
     insert_sorted(&tree, 1);
     insert_sorted(&tree, 2);
@@ -39,17 +41,21 @@ int main(void){
     insert_sorted(&tree, 7);
     print_string("Preorder: ");
     print_preorder(tree);
-    print_string("\nDepth: ");
+    print_newline();
+    print_string("Depth: ");
     print_int(depth(tree));
-    print_string("\nMin Depth: ");
+    print_newline();
+    print_string("Min Depth: ");
     print_int(min_depth(tree));
-    print_string("\n");
+    print_newline();
     balance_tree(&tree);
-    print_string("\nPreorder: ");
+    print_string("Preorder: ");
     print_preorder(tree);
-    print_string("\nDepth: ");
+    print_newline();
+    print_string("Depth: ");
     print_int(depth(tree));
-    print_string("\nMin Depth: ");
+    print_newline();
+    print_string("Min Depth: ");
     print_int(min_depth(tree));
-    print_string("\n");
+    print_newline();
 }

@@ -1,12 +1,22 @@
-#include <stdio.h>
+#include <nrfx.h>
+#include <nrf5340_application.h>
+#include <nrfx_config.h>
+#include <nrf.h>
+#include <nrf_gpio.h>
+#include <nrfx_uarte.h>
 #include <stdlib.h>
+#include <stdio.h>
 
-void get_uarte();
+nrfx_uarte_t get_uarte();
 
-void init_uarte();
+nrfx_uarte_t init_uarte();
 
 void read_int(int* output);
 
 void print_string(char* message);
+
+void print_newline();
+
+void clear_screen();
 
 void print_int(int input);
