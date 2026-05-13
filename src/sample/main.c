@@ -9,6 +9,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#include "uarte-commands.h"
+
 // Serial communication 115200 baud
 
 /*By Daniel Morberg*/
@@ -38,25 +40,10 @@ LED 4       P0.31
 #define BUTTON3 (8)
 #define BUTTON4 (9)
 
-nrfx_uarte_t instance = NRFX_UARTE_INSTANCE(0);
-
 const nrfx_rtc_t rtc_instance = NRFX_RTC_INSTANCE(0);
-
-void print_string(char* input){
-    for(int i = 0; input[i] != '\0'; i++)
-        nrfx_uarte_tx(&instance, &input[i], sizeof(input[i]), 0);
-}
-
-void send_int(int input){
-    char buffer[15]; // UINT_MAX < 10^15
-    sprintf(buffer, "%d", input);
-    print_string(buffer);
-}
 
 int main(void){
     int srandUsed = 0;
-    const nrfx_uarte_config_t config = NRFX_UARTE_DEFAULT_CONFIG(PIN_TXD, PIN_RXD);
-    nrfx_uarte_init(&instance, &config, NULL);
     nrfx_rtc_config_t rtc_config = NRFX_RTC_DEFAULT_CONFIG;
     nrfx_rtc_init(&rtc_instance, &rtc_config, NULL);
     nrfx_rtc_enable(&rtc_instance);
@@ -67,24 +54,16 @@ int main(void){
     nrf_gpio_cfg_input(BUTTON3, NRF_GPIO_PIN_PULLUP);
     nrf_gpio_cfg_input(BUTTON4, NRF_GPIO_PIN_PULLUP);
 
-    char clearScreen[] = CLEAR_SCREEN;
-    nrfx_uarte_tx(&instance, &clearScreen, sizeof(clearScreen), 0);
-    char msg1[] = "Program started, please press any button to generate a random number.\r\n";
-    print_string(msg1);
+    clear_screen();
+    print_string("Program started, please press any button to initialize the program.\r\n");
     
     while(1){
         if(!nrf_gpio_pin_read(BUTTON1) || !nrf_gpio_pin_read(BUTTON2) || !nrf_gpio_pin_read(BUTTON3) || !nrf_gpio_pin_read(BUTTON4)){
             if(!srandUsed){
                 srand(nrfx_rtc_counter_get(&rtc_instance));
                 srandUsed = 1;
+                print_string("Program initialized with a seed value.\r\n");
             }
-            int random_number = rand() % 100 + 1;
-            char msg2[] = "Generated random number (1-100): ";
-            print_string(msg2);
-            send_int(random_number);
-            char newline[] = "\r\n";
-            print_string(newline);
-            nrfx_systick_delay_ms(500);
         }
     }
 }
