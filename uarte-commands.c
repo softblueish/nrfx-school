@@ -21,6 +21,10 @@ void print_int(int input){
     printf("%d", input);
 }
 
+void print_newline(){
+    printf("\n");
+}
+
 void read_int(int* output){
     char buffer[100];
     scanf("%s", buffer);
