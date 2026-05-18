@@ -29,20 +29,16 @@ void removeNode(List* list, int position) {
         return;
 
     Node* temp = *list;
-
     if (position == 0) {
         *list = temp->next;
         free(temp);
         return;
     }
-
     for (int i = 0; temp != NULL && i < position - 1; i++) {
         temp = temp->next;
     }
-
     if (temp == NULL || temp->next == NULL)
         return;
-
     Node* next = temp->next->next;
     free(temp->next);
     temp->next = next;
@@ -64,17 +60,14 @@ int get(List* list, int position) {
 void swap(List* list, Node* target) {
     if (*list == NULL) 
         return;
-
     Node* current = *list;
     Node* previous = NULL;
     while (current != NULL && current != target) {
         previous = current;
         current = current->next;
     }
-
     if (current == NULL || current->next == NULL)
         return;
-
     Node* next = current->next;
     current->next = next->next;
     next->next = current;
