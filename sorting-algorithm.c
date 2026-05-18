@@ -43,3 +43,44 @@ void bubble_sort_list(List* list){
         }
     } while(keep_going);
 }
+
+void merge_sort_array(int* array, int size){
+    if(size < 2){
+        return;
+    }
+    int mid = size / 2;
+    int* left = (int*)malloc(mid * sizeof(int));
+    int* right = (int*)malloc((size - mid) * sizeof(int));
+    for(int i = 0; i < mid; i++){
+        left[i] = array[i];
+    }
+    for(int i = mid; i < size; i++){
+        right[i - mid] = array[i];
+    }
+    merge_sort_array(left, mid);
+    merge_sort_array(right, size - mid);
+    int i = 0, j = 0, k = 0;
+    while(i < mid && j < size - mid){
+        if(left[i] < right[j]){
+            array[k] = left[i];
+            i++;
+            k++;
+        } else {
+            array[k] = right[j];
+            j++;
+            k++;
+        }
+    }
+    while(i < mid){
+        array[k] = left[i];
+        i++;
+        k++;
+    }
+    while(j < size - mid){
+        array[k] = right[j];
+        j++;
+        k++;
+    }
+    free(left);
+    free(right);
+}
