@@ -8,8 +8,11 @@
 #include <nrfx_rtc.h>
 #include <stdlib.h>
 #include <stdio.h>
-
 #include "uarte-commands.h"
+#include "linked-list.h"
+#include "sorting-algorithm.h"
+#include "randomization.h"
+
 
 // Serial communication 115200 baud
 
@@ -31,74 +34,120 @@ LED 4       P0.31
 
 */
 
-#define PIN_TXD 20
-#define PIN_RXD 22
-#define CLEAR_SCREEN "\033c"
-
-#define LED1 (28)
-#define LED2 (29)
-#define LED3 (30)
-#define LED4 (31)
 #define BUTTON1 (23)
 #define BUTTON2 (24)
 #define BUTTON3 (8)
 #define BUTTON4 (9)
-#define LED_ON 0
-#define LED_OFF 1
 
 const nrfx_rtc_t rtc_instance = NRFX_RTC_INSTANCE(0);
 
-const int LED[] = {LED1, LED2, LED3, LED4};
-
 int main(void){
-    int srandUsed = 0;
     init_uarte();
+    nrfx_systick_init();
+    clear_screen();
+    
     nrfx_rtc_config_t rtc_config = NRFX_RTC_DEFAULT_CONFIG;
     nrfx_rtc_init(&rtc_instance, &rtc_config, NULL);
     nrfx_rtc_enable(&rtc_instance);
-    nrfx_systick_init();
 
-    nrf_gpio_cfg_output(LED1);
-    nrf_gpio_cfg_output(LED2);
-    nrf_gpio_cfg_output(LED3);
-    nrf_gpio_cfg_output(LED4);
     nrf_gpio_cfg_input(BUTTON1, NRF_GPIO_PIN_PULLUP);
     nrf_gpio_cfg_input(BUTTON2, NRF_GPIO_PIN_PULLUP);
     nrf_gpio_cfg_input(BUTTON3, NRF_GPIO_PIN_PULLUP);
     nrf_gpio_cfg_input(BUTTON4, NRF_GPIO_PIN_PULLUP);
 
-    clear_screen();
-    print_string("Program started, please press any button to initialize the program.\r\n");
-    
-    for(int i = 0 ; i < 4; i++)
-        nrf_gpio_pin_write(LED[i], LED_OFF);
-    while(1){
+    // Generate a seed
+    print_string("Press a button to initialize randomization.");
+    print_newline();
+    while(0){
         if(!nrf_gpio_pin_read(BUTTON1) || !nrf_gpio_pin_read(BUTTON2) || !nrf_gpio_pin_read(BUTTON3) || !nrf_gpio_pin_read(BUTTON4)){
-            if(!srandUsed){
-                srand(nrfx_rtc_counter_get(&rtc_instance));
-                srandUsed = 1;
-                break;
-            }
+            srand(nrfx_rtc_counter_get(&rtc_instance));
+            break;
         }
     }
-    print_string("Program initialized with a seed value.\r\n");
-    while(1){
-        int amount = 0;
-        int delay = 0;
-        print_string("Enter an amount: ");
-        read_int(&amount);
+
+
+    // Test bubble sort
+    int sizes[6] = {8, 64, 200, 256, 400, 512};
+    for(int i = 0; i < 6; i++) {
+        List list;
+        initList(&list);
+        randomize_list(&list, sizes[i], 0, 100);
+        print_string("List created for size ");
+        print_int(sizes[i]);
+        print_string(" (ints).");
         print_newline();
-        print_string("Enter a delay: ");
-        read_int(&delay);
+        print_string("Sorting through bubble sort...");
+        nrf_systick_val_clear();
+        long unsigned int pretime = nrf_systick_val_get();
+        bubble_sort_list(&list);
+        long unsigned int posttime = nrf_systick_val_get();
+        print_string(" Done!");
         print_newline();
-        print_string("Executing program, it'll take ~");
-        print_int(amount * delay);
-        print_string("ms\r\n");
-        for(int i = 0; i < amount; i++){
-            int selected_led = rand() % 4;
-            nrf_gpio_pin_write(LED[selected_led], LED_ON);
-            nrfx_systick_delay_ms(delay);
-            nrf_gpio_pin_write(LED[selected_led], LED_OFF);
+        print_string("Took ");
+        print_int(pretime-posttime);
+        print_string(" ticks! ");
+        if(is_sorted_list(&list)){
+            print_string("... and it's sorted! ");
+        } else {
+            print_string("... and it's NOT sorted! ");
         }
+        print_newline();
     }
+
+    /*for(int i = 0; i < 4; i++) {
+        int *array = malloc((int)sizes[i]*sizeof(int));
+        randomize_array(array, sizes[i], 0, 100);
+        print_string("Array created for size ");
+        print_int(sizes[i]);
+        print_string(" (ints).");
+        print_newline();
+        print_string("Sorting through merge sort...");
+        nrf_systick_val_clear();
+        long unsigned int pretime = nrf_systick_val_get();
+        merge_sort_array(array, sizes[i]);
+        long unsigned int posttime = nrf_systick_val_get();
+        print_string(" Done!");
+        print_newline();
+        print_string("Took ");
+        print_int(pretime-posttime);
+        print_string(" ticks! ");
+        if(is_sorted_array(array, sizes[i])){
+            print_string("... and it's sorted! ");
+        } else {
+            print_string("... and it's NOT sorted! ");
+        }
+        print_newline();
+        free(array);
+    }
+
+    for(int i = 0; i < 4; i++) {
+        int *array = malloc((int)sizes[i]*sizeof(int));
+        randomize_array(array, sizes[i], 0, 100);
+        print_string("Array created for size ");
+        print_int(sizes[i]);
+        print_string(" (ints).");
+        print_newline();
+        print_string("Sorting through quick sort...");
+        nrf_systick_val_clear();
+        long unsigned int pretime = nrf_systick_val_get();
+        quick_sort_array(array, sizes[i]);
+        long unsigned int posttime = nrf_systick_val_get();
+        print_string(" Done!");
+        print_newline();
+        print_string("Took ");
+        print_int(pretime-posttime);
+        print_string(" ticks! ");
+        if(is_sorted_array(array, sizes[i])){
+            print_string("... and it's sorted! ");
+        } else {
+            print_string("... and it's NOT sorted! ");
+        }
+        print_newline();
+        free(array);
+    }*/
+
+    print_string("Program finished.");
+    print_newline();
+
+    return 0;
 }

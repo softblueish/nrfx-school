@@ -1,3 +1,5 @@
+#ifndef UARTE_COMMANDS_
+#define UARTE_COMMANDS_
 #include <nrfx.h>
 #include <nrf5340_application.h>
 #include <nrfx_config.h>
@@ -6,6 +8,7 @@
 #include <nrfx_uarte.h>
 #include <stdlib.h>
 #include <stdio.h>
+
 
 nrfx_uarte_t get_uarte();
 
@@ -20,3 +23,4 @@ void print_newline();
 void clear_screen();
 
 void print_int(int input);
+#endif
