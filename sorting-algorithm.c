@@ -84,3 +84,60 @@ void merge_sort_array(int* array, int size){
     free(left);
     free(right);
 }
+
+void quick_sort_array(int* array, int size){
+    if(size < 2){
+        return;
+    }
+    int pivot = array[(int)floor((double)size / 2)];
+    int* left = (int*)malloc(size * sizeof(int));
+    int* right = (int*)malloc(size * sizeof(int));
+    int left_count = 0;
+    int right_count = 0;
+    for(int i = 0; i < size; i++){
+        if(array[i] < pivot){
+            left[left_count] = array[i];
+            left_count++;
+        } else
+        if(array[i] > pivot){
+            right[right_count] = array[i];
+            right_count++;
+        }
+    }
+    for(int i = 0; i < size; i++){
+        if(array[i] == pivot){
+            if(left_count < right_count){
+            left[left_count] = pivot;
+            left_count++;
+        } else {
+            right[right_count] = pivot;
+            right_count++;
+        }
+        }
+    }
+    print_string("Pivot: ");
+    print_int(pivot);
+    print_newline();
+    print_string("Left: ");
+    for(int i = 0; i < left_count; i++){
+        print_int(left[i]);
+        print_string(" ");
+    }
+    print_newline();
+    print_string("Right: ");
+    for(int i = 0; i < right_count; i++){
+        print_int(right[i]);
+        print_string(" ");
+    }
+    print_newline();
+    quick_sort_array(left, left_count);
+    quick_sort_array(right, right_count);
+    for(int i = 0; i < left_count; i++){
+        array[i] = left[i];
+    }
+    for(int i = 0; i < right_count; i++){
+        array[left_count + i] = right[i];
+    }
+    free(left);
+    free(right);
+}

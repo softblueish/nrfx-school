@@ -1,4 +1,5 @@
 #include "linked-list.h"
+#include <math.h>
 
 int is_sorted_list(List* list);
 
