@@ -59,3 +59,28 @@ int get(List* list, int position) {
     }
     return temp->data;
 }
+
+// I know this isnt the pseudocode i used for labb 3.1, but i made a single linked list instead so i rewrote it
+void swap(List* list, Node* target) {
+    if (*list == NULL) 
+        return;
+
+    Node* current = *list;
+    Node* previous = NULL;
+    while (current != NULL && current != target) {
+        previous = current;
+        current = current->next;
+    }
+
+    if (current == NULL || current->next == NULL)
+        return;
+
+    Node* next = current->next;
+    current->next = next->next;
+    next->next = current;
+    if (previous != NULL) {
+        previous->next = next;
+    } else {
+        *list = next;
+    }
+}

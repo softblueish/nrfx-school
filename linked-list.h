@@ -16,3 +16,5 @@ void insert(List* list, int data);
 void removeNode(List* list, int position);
 
 int get(List* list, int position);
+
+void swap(List* list, Node* target);

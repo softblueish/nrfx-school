@@ -19,3 +19,27 @@ int is_sorted_array(int* array, int size){
     }
     return 1;
 }
+
+void bubble_sort_list(List* list){
+    if(*list == NULL){
+        return;
+    }
+    int keep_going = 0;
+    Node* temp;
+    do{
+        keep_going = 0;
+        temp = *list;
+        while(temp != NULL && temp->next != NULL){
+            if(temp->data > temp->next->data){
+                print_string("Swapping ");
+                print_int(temp->data);
+                print_string(" and ");
+                print_int(temp->next->data);
+                print_newline();
+                swap(list, temp);
+                keep_going = 1;
+            }
+            temp = temp->next;
+        }
+    } while(keep_going);
+}
